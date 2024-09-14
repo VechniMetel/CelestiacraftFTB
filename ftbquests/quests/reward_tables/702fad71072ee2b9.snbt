@@ -1,0 +1,80 @@
+{
+	id: "702FAD71072EE2B9"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "legendarysurvivaloverhaul:snow_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "legendarysurvivaloverhaul:snow_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "legendarysurvivaloverhaul:snow_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "legendarysurvivaloverhaul:snow_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "legendarysurvivaloverhaul:desert_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "legendarysurvivaloverhaul:desert_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "legendarysurvivaloverhaul:desert_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "legendarysurvivaloverhaul:desert_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "衣物"
+}

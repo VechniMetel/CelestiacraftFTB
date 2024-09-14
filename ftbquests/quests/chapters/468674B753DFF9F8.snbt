@@ -1,0 +1,3049 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "468674B753DFF9F8"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "468674B753DFF9F8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0BB2BCD811000FD4"]
+			id: "2A6BA82C7FCF6CBF"
+			rewards: [{
+				id: "3B2F39DE78AFA504"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "按住鼠标左键！"
+			tasks: [{
+				id: "1D46F07782430138"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "要致富！先打树！"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "5E651CF796DA5B5C"
+			rewards: [
+				{
+					count: 4
+					id: "2FD0EEEF9103FE47"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "78B1AF890E0E6CED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "石器时代！"
+			tasks: [{
+				id: "7645E4AC0264539F"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "鹅卵石！"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B4B64839B7F8BC6"]
+			id: "37ECEBB36EC5B4BF"
+			rewards: [
+				{
+					id: "0C7EBC1B0E8E1295"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1038D7369C6F199F"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4165B0154C49751A"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "316BCB8105308A59"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350FB9051D646117"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "铁器时代！"
+			tasks: [{
+				id: "050D9F6FAA09FC09"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "来硬的！"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B4B64839B7F8BC6"]
+			id: "0AF9D3E686A29BA9"
+			rewards: [{
+				id: "2F71A1FC74189AA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "死刑！"
+			tasks: [{
+				id: "170819E55A7B59A4"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "炼铜！"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B4B64839B7F8BC6"]
+			id: "6A35ADC3C679DE28"
+			rewards: [{
+				id: "7B32DA62234CEBCD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "万能燃料！"
+			tasks: [{
+				id: "5A11F9FD2F38ED6A"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			title: "煤炭！"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E651CF796DA5B5C"]
+			id: "6B6687380832499A"
+			rewards: [{
+				id: "5EE3331F7777CF94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "这可是好东西！"
+			tasks: [{
+				id: "4978F1C192CB9C6C"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			title: "天青色等烟雨！"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E651CF796DA5B5C"]
+			id: "6F7312BCDD2DFBDD"
+			rewards: [{
+				id: "256566D1665B6C8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "它闪耀着紫色的光芒！"
+			tasks: [{
+				id: "5C1C01D4AC56A301"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "紫色水晶！"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "413407BBEB4772D2"
+			rewards: [{
+				id: "02CDA44C4F81FD83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "我们要发财啦！"
+			tasks: [{
+				id: "376B3F4D99BC9F62"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "真金不怕火炼！"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "6AAB8931C902A1E0"
+			rewards: [{
+				id: "6D9203FE0659C845"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "恭喜你，在这个世界站稳了脚跟！"
+			tasks: [{
+				id: "26BCE9DA4471EA5C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "钻石！"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "0034439839BE156C"
+			rewards: [{
+				id: "7FA399427255998F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "它蕴含着强大的能量！"
+			tasks: [{
+				id: "432A1AF912855FCD"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "来电了！"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "024902F315461A53"
+			rewards: [{
+				id: "1D9EF7F4887C3C13"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "开展经济建设！"
+			tasks: [{
+				id: "6B701637154FB515"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "村民都说好！"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "3274E70B45135F9E"
+			rewards: [{
+				id: "0DA1FB9CDBF38CFD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "走位！走位！"
+			tasks: [{
+				id: "50AA507D9BC11F2D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "旋转跳跃我闭着眼！"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5DD252EC93F603E5"
+				"5E5C9A61A774D8D6"
+			]
+			id: "69E7AACF8714FFBF"
+			rewards: [
+				{
+					id: "04DC4B4B6565A8A5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "39935719641CF95C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "前往下界！"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5E64C0F34FA0CB23"
+				type: "dimension"
+			}]
+			title: "地狱之门！"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6AAB8931C902A1E0"
+				"6B6687380832499A"
+				"5DD252EC93F603E5"
+				"081A7CEF2EEA5424"
+			]
+			id: "4589D68A77C3366C"
+			rewards: [
+				{
+					id: "31ABBE3076E7ED0A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 9
+					id: "6C39EE4EC70005C9"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "0D0EC3826DF290A6"
+					item: "primogemcraft:ydfms"
+					type: "item"
+				}
+			]
+			subtitle: "我强大的可怕！"
+			tasks: [{
+				id: "62D3E8E9D5EB4EDD"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "附魔师！"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "51774870B3806D9C"
+			rewards: [
+				{
+					id: "79366021EC788CF9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "48C059A742256610"
+					item: "primogemcraft:ydfms"
+					type: "item"
+				}
+			]
+			subtitle: "打铁还需自身硬！"
+			tasks: [{
+				id: "4B9E461F3E16954D"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "铁匠！"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69E7AACF8714FFBF"]
+			id: "7001DC2C1CCC76A9"
+			rewards: [{
+				id: "0E94E420633DF6C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "获得下界石英！"
+			tasks: [{
+				id: "5E98F1804BE58A58"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "极品建筑材料！"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["69E7AACF8714FFBF"]
+			id: "6C9357A356D0E74C"
+			rewards: [
+				{
+					id: "6DDA6FF5A06B3B37"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "709259DFD9840E82"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "3F4F9DB26190A434"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+			]
+			subtitle: "你在地狱睡觉试试呢？"
+			tasks: [{
+				id: "3DD63CBA73613AA7"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "地狱的家！"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["69E7AACF8714FFBF"]
+			id: "7D4D08DA8CCDF9B2"
+			rewards: [{
+				id: "5242BD7D06682E53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "我无敌了？"
+			tasks: [{
+				id: "752D563DE27109CF"
+				item: "primogemcraft:zhapiandingzhengshi"
+				type: "item"
+			}]
+			title: "原版T0！"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["69E7AACF8714FFBF"]
+			id: "7E325657181CD9E1"
+			rewards: [{
+				id: "34947C9708DDB2F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "起舞吧！"
+			tasks: [{
+				id: "50081307D3260254"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "与火共舞！"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["69E7AACF8714FFBF"]
+			id: "5AE50422582D2E3C"
+			rewards: [
+				{
+					id: "527B191EF6670B9A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3137CB2F469FBDCB"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			subtitle: "集齐三个召唤神龙！（bushi）"
+			tasks: [{
+				id: "1CAAA64C0D6C256E"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "斩首行动！"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E325657181CD9E1"]
+			id: "09B09869E14F34BA"
+			rewards: [
+				{
+					id: "5A716E66A8B248E6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 10
+					id: "02B0D78D23AFBAA2"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			subtitle: "本地的酿造厂！"
+			tasks: [{
+				id: "14DF3C76BF6DD8F1"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "干杯！"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5AE50422582D2E3C"]
+			id: "6664015DE08B8C60"
+			rewards: [
+				{
+					id: "27B2ABC691B1F3C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3FD3195F75F73AC4"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "2E38DFC6839AA178"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "击杀凋灵！"
+			tasks: [{
+				id: "02C58986861D1115"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "地狱之王！"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3274E70B45135F9E"
+				"7E325657181CD9E1"
+			]
+			id: "2688927697811DA5"
+			rewards: [{
+				id: "66C6D49A3E340419"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "跟随它的指引！"
+			tasks: [{
+				id: "5EEB71D8A77D7F08"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "他要去哪？"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "04A310897453BBDC"
+			rewards: [
+				{
+					id: "6CD58E44902236BF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "663ED571DC557AC3"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "大决战！"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "416FCC5BB5BA9FC1"
+				type: "dimension"
+			}]
+			title: "终末之诗！"
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["04A310897453BBDC"]
+			id: "38DCCBC162F7E38E"
+			rewards: [
+				{
+					id: "2F3ED668E0B9301C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "51BD6A02C5663BD1"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "32495B6C8EF94C18"
+					item: "majruszsdifficulty:enderium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "结束了？"
+			tasks: [{
+				id: "311F90B08B5CEB3B"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "屠龙勇士！"
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6AAB8931C902A1E0"]
+			id: "31A5DBC905C4ED33"
+			rewards: [
+				{
+					id: "5643DEBFD921B021"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1A85DE93A51CF6EA"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "7FF78CB6AA1DEEA8"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击败坚守者！"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_shrieker"
+				id: "2D2CDD3B25E401FE"
+				title: "幽匿洞穴！"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6AAB8931C902A1E0"
+				"07B1CF26A5BAFA82"
+			]
+			id: "12EB0C0A82E46CE1"
+			rewards: [
+				{
+					id: "37C34D6C89297B1B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3E1BE284A62F9D3F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4F61D30F18EA37B7"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "06B209CD1E686A58"
+					item: "primogemcraft:jijiuchanzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "击败远古守卫者！"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:wet_sponge"
+				id: "74C21100AD170140"
+				title: "大鱼海棠！"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["024902F315461A53"]
+			id: "6C480C4AE3ED2711"
+			rewards: [{
+				id: "6E08EE152F9828BA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "与村民进行一次交易！"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				icon: "minecraft:emerald_block"
+				id: "40D5E39ACF31ECC0"
+				title: "这交易不错！"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C480C4AE3ED2711"]
+			id: "1E5CBE25137750D1"
+			rewards: [
+				{
+					id: "0F691613AABB5ED5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5F56B2BB1B89D55A"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2837A26CDC935414"
+					item: "primogemcraft:jijiuchanzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "击败唤魔者！"
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: "minecraft:totem_of_undying"
+				id: "0999A2B2237FDBF4"
+				title: "近战法师？"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1E5CBE25137750D1"
+				"606E1615F027BC8C"
+				"76BF13773057B44F"
+			]
+			id: "78181EC747BC62B0"
+			rewards: [
+				{
+					id: "174E998ADEBB6815"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2A26167FA803075B"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "05121A13B1CC6274"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "177F2F4530997BD0"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "你拯救了村庄！"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "6236B78DC85F372D"
+				title: "村庄英雄！"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "7CE7B3589DAB853C"
+			rewards: [
+				{
+					id: "624CDE53641F63AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2A563DB144C0C8CF"
+					item: "rtdd:meathook"
+					type: "item"
+				}
+				{
+					id: "378EAB279B73E0A6"
+					item: "rtdd:cleaver"
+					type: "item"
+				}
+			]
+			subtitle: "吃肉变得困难了......"
+			tasks: [{
+				id: "7C69FBEFA2DFA43F"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "篝火映着脸！"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "3F4C1BB9DCA5DA7E"
+			rewards: [
+				{
+					id: "1ACF74D089BB3885"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2A660DCCA075FD7C"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "0C7B1D1A93B1D990"
+					item: "minecraft:soul_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "美美的睡一觉吧！ "
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "1DCB22E8528D14B1"
+				title: "温暖的家！"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E651CF796DA5B5C"]
+			id: "508BB79B470A8C9A"
+			rewards: [{
+				id: "35950753386B0BD6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "击杀一只怪物！"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5EAD5C35C9E8CC39"
+				title: "怪物猎人！"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "73C5553C8CCC196D"
+			rewards: [
+				{
+					id: "10A3A0BAA558BDCE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2E7900A0FADC4C28"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "锄禾日当午！"
+			tasks: [{
+				id: "6E571BD6845CD5D9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:hoes"
+					}
+				}
+				title: "Any #minecraft:hoes"
+				type: "item"
+			}]
+			title: "耕种时间到！"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73C5553C8CCC196D"]
+			id: "56E90AB30094CCFA"
+			rewards: [
+				{
+					id: "25FDB503AFEF9113"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3DA4FBCCF16A7FD2"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			subtitle: "繁殖一对动物！"
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				icon: "minecraft:wheat"
+				id: "453C8A3E72BC175C"
+				title: "我从哪儿来？"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73C5553C8CCC196D"]
+			id: "30B5CAA703D0E565"
+			rewards: [
+				{
+					id: "1154EA6B09DB02D9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "273C7299AED29A69"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+			]
+			subtitle: "bee~"
+			tasks: [{
+				id: "05FC5CE0974E8542"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			title: "哈基米（"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56E90AB30094CCFA"]
+			id: "4E1062E4F10BFEB9"
+			rewards: [{
+				id: "52B92726B9E2CF9A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "喝奶我只喝三鹿牌！"
+			tasks: [{
+				id: "615DCB7329C2AA13"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "挤牛奶！"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56E90AB30094CCFA"]
+			id: "0984560AB1867071"
+			rewards: [{
+				id: "757B5254D1761F88"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "你干嘛哎呦~"
+			tasks: [{
+				id: "7799626B95D9995A"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			title: "鸡蛋鸭蛋荷包蛋！"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E1062E4F10BFEB9"
+				"0984560AB1867071"
+			]
+			id: "35051F3798414DB9"
+			rewards: [
+				{
+					id: "44E9231DDBB5045E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2D446C998272006F"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "糕蛋！"
+			tasks: [{
+				id: "6DA6A787941F007C"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			title: "蛋糕是个谎言！"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "4314F3B754388F97"
+			rewards: [
+				{
+					id: "0C03F6F580EFF8D7"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "255630A6532C7A70"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "获得64个泥土！"
+			tasks: [{
+				count: 64L
+				id: "61DD0125C3AED215"
+				item: { Count: 64, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			title: "人体挖土机！"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "04C59A5F5C4BFB5B"
+			rewards: [
+				{
+					id: "75FB2398460D6342"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7CE5C28BAB47DF39"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得64个沙子"
+			tasks: [{
+				count: 64L
+				id: "6B496E97D51A2E86"
+				item: { Count: 64, id: "minecraft:sand" }
+				type: "item"
+			}]
+			title: "沙雕！"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "673749B9846EC001"
+			rewards: [
+				{
+					id: "762D320246FB77FE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0A8075FC39837820"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得任意64个木头！"
+			tasks: [{
+				count: 64L
+				id: "271F6AA3F19E6B70"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "伐伐伐木工！"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E651CF796DA5B5C"]
+			id: "75707BA42D151B42"
+			rewards: [
+				{
+					id: "28CF7EB590B8E865"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "05E9B7649EC2F7CD"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "在小小的花园里面挖呀挖呀挖~"
+			tasks: [{
+				count: 64L
+				id: "101C02E1D650468A"
+				item: { Count: 64, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "蠹虫！"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E651CF796DA5B5C"]
+			id: "6CFAD47DEB4FC5CF"
+			rewards: [
+				{
+					id: "624F22AFBD81B24E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0C7DCE8885708493"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "钻石在哪里？"
+			tasks: [{
+				count: 64L
+				id: "08208B3D51A7A1DF"
+				item: { Count: 64, id: "minecraft:cobbled_deepslate" }
+				type: "item"
+			}]
+			title: "穿山甲！"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "0709219C28EBCDA6"
+			rewards: [{
+				id: "6DD3C2D8C44EC622"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "就，挺秃然的......"
+			tasks: [{
+				id: "6AD93937724EE2D3"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "牧羊人！"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "7A4007F95134A59E"
+			rewards: [{
+				id: "05D1DFA7FA802BC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "怎么到哪都有钓鱼佬（恼）"
+			tasks: [{
+				id: "6B45711DEEC18A63"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "老人与海！"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0709219C28EBCDA6"]
+			id: "2B75A86B50FDD279"
+			rewards: [
+				{
+					id: "1B5298EBE74A0257"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2079F0F6EEF2D5A4"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得64个羊毛！"
+			tasks: [{
+				count: 64L
+				id: "2BEA160AE7D02959"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			title: "拒绝痱子！"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73C5553C8CCC196D"]
+			id: "11283C3D4B048159"
+			rewards: [
+				{
+					id: "4FA86807F501CB6D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "201310E44F89F718"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得64个小麦！"
+			tasks: [{
+				count: 64L
+				id: "559F56C7012C45B1"
+				item: { Count: 64, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			title: "金色麦田！"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"442EDF1950900ECB"
+				"7FA0F83A62316092"
+			]
+			id: "551CC3EE6541A05B"
+			rewards: [
+				{
+					id: "567FC4239E9C6E62"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "02B03C669F8CB873"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得64个砂砾！"
+			tasks: [{
+				count: 64L
+				id: "589E3558DFB20397"
+				item: { Count: 64, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			title: "坍塌！"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6664015DE08B8C60"]
+			id: "098DDAB5E91846AA"
+			rewards: [
+				{
+					id: "0E80C33D7D8AFD9C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 10
+					id: "18325FD0A62E5608"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "行星发动机！（bushi）"
+			tasks: [{
+				id: "09B991ECB0B98980"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "信标工程师！"
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E651CF796DA5B5C"]
+			id: "067D526B5BE25135"
+			rewards: [{
+				id: "4C1EC5A016F81A65"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "小螺号，滴滴滴吹~"
+			tasks: [{
+				id: "2CB208FD824EDEB6"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
+			title: "海螺的秘密！"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["067D526B5BE25135"]
+			id: "0F2DBF472E78720F"
+			rewards: [
+				{
+					id: "1E7AB7581BB6923F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 10
+					id: "1F75025DD6E05A2B"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "倒流进，天空的海底......"
+			tasks: [{
+				id: "354FA4EE3DB0E163"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "深海的加护！"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6AAB8931C902A1E0"]
+			id: "41E087B4758337A9"
+			rewards: [
+				{
+					id: "3BFFC480B105C766"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0C89CBCBAC5B9BD2"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得64个黑曜石！"
+			tasks: [{
+				count: 64L
+				id: "6A2CE67DBB3CE7C7"
+				item: { Count: 64, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			title: "金刚不坏！"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			icon: "minecraft:bone"
+			id: "1B49B38A4FA423BF"
+			rewards: [
+				{
+					id: "2CC257ED003CE2FF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "23416C064BA1BBDA"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得5种常见怪物掉落物16个！"
+			tasks: [
+				{
+					count: 16L
+					id: "72B036527D47C986"
+					item: { Count: 32, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0A5EAC5E368C877E"
+					item: { Count: 32, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "18EEC81EC4B6B8CD"
+					item: { Count: 32, id: "minecraft:spider_eye" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "461B2F28EC940728"
+					item: { Count: 32, id: "minecraft:string" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2978039B515D3139"
+					item: { Count: 16, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+			]
+			title: "出击时间到！"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6AAB8931C902A1E0"
+				"3F4C1BB9DCA5DA7E"
+			]
+			id: "240FC145A0EA7820"
+			rewards: [
+				{
+					id: "675EE4E83755B62C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7B9E6F6F52AD303C"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "音乐是治愈灵魂的良药！"
+			tasks: [{
+				id: "2A2ED89696A25624"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			title: "艺术人生！"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F4C1BB9DCA5DA7E"]
+			id: "0099DD6B3BF3217B"
+			rewards: [
+				{
+					id: "78AE7CD049EE4D38"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3BDFC3AF08FC6E5E"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "美术是文明历史生动的记载！"
+			tasks: [{
+				id: "31080D569DDE528B"
+				item: "minecraft:painting"
+				type: "item"
+			}]
+			title: "定格瞬间！"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F4C1BB9DCA5DA7E"]
+			id: "7AE20DF6141BF7C9"
+			rewards: [{
+				id: "05FEFD30E759EDA5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作锻造台！"
+			tasks: [{
+				id: "3963573D560E1789"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "锻造！"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F4C1BB9DCA5DA7E"]
+			id: "45FD11F38E31FA3B"
+			rewards: [{
+				id: "079DA014D31CF46E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作制箭台！"
+			tasks: [{
+				id: "4B105A8448D40EA5"
+				item: "minecraft:fletching_table"
+				type: "item"
+			}]
+			title: "靶场！"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38DCCBC162F7E38E"]
+			id: "4652CC0D6182EC90"
+			rewards: [
+				{
+					id: "502DBCEFDBB1FA92"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "797F7E1F0C709275"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "我要飞得更高！"
+			tasks: [{
+				id: "63C66BCD667556EE"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "天空是极限吗？"
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3F4C1BB9DCA5DA7E"]
+			id: "3FE54008958E3FCC"
+			rewards: [{
+				id: "29FEA1372C8F4A5C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作制图台！"
+			tasks: [{
+				id: "47E2F4770B862938"
+				item: "minecraft:cartography_table"
+				type: "item"
+			}]
+			title: "指引迷津！"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F4C1BB9DCA5DA7E"]
+			id: "65D4655C99DED3EB"
+			rewards: [
+				{
+					id: "09DBB96F803940AC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "289F1F64CBF5C40C"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+			]
+			subtitle: "制作讲台！"
+			tasks: [{
+				id: "50968AC6ED4FE2DA"
+				item: "minecraft:lectern"
+				type: "item"
+			}]
+			title: "思想起源！"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F4C1BB9DCA5DA7E"]
+			id: "682F5A1290EBD4D6"
+			rewards: [{
+				id: "7EC632285C60E6EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作砂轮！"
+			tasks: [{
+				id: "73E95571AD7CB14B"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			title: "祛魔台！"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A6BA82C7FCF6CBF"]
+			id: "442EDF1950900ECB"
+			rewards: [{
+				id: "2FFB211036AEB8E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "万物起源！"
+			tasks: [{
+				id: "53A785257B335639"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "这是......工作台？！"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F4C1BB9DCA5DA7E"]
+			id: "7CFF0D89210F73DB"
+			rewards: [{
+				id: "6F376C16AC041315"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作织布机！"
+			tasks: [{
+				id: "35825F43CD8E9719"
+				item: "minecraft:loom"
+				type: "item"
+			}]
+			title: "珍妮纺纱机！"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F4C1BB9DCA5DA7E"]
+			id: "345258B9B2B1DED9"
+			rewards: [{
+				id: "3DF4B522A894015D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作切石机！"
+			tasks: [{
+				id: "7447DF260FFD74BC"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			title: "石匠！"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E651CF796DA5B5C"]
+			id: "7B4B64839B7F8BC6"
+			rewards: [
+				{
+					id: "4C3CEFE1D35D2029"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0EE48A704E803DED"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			subtitle: "多功能炉！"
+			tasks: [{
+				id: "659608ED397DB134"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "热门话题！"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B4B64839B7F8BC6"]
+			id: "49B7CD3BF4FEE866"
+			rewards: [
+				{
+					id: "247B38DC3B44CA17"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6FBCEA96CE2531B9"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			subtitle: "专业冶炼！"
+			tasks: [{
+				id: "12DFD7141EEAD345"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "大炼钢铁！"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B4B64839B7F8BC6"]
+			id: "3211C4B39227EEDD"
+			rewards: [
+				{
+					id: "0984774A49A93CE4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "638DBD480D1026FA"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			subtitle: "香喷喷的烤肉~"
+			tasks: [{
+				id: "0CD5885F253348C4"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			title: "烟熏食物！"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AAB8931C902A1E0"]
+			id: "5DD252EC93F603E5"
+			rewards: [{
+				id: "7BDC521BB2298BDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "爆炸保护114514！"
+			tasks: [{
+				id: "30A5082BF9AFCA47"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "冰桶挑战！"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["73C5553C8CCC196D"]
+			id: "4EF456ABE238CBB6"
+			rewards: [
+				{
+					id: "1D970138D39FEB97"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "53292E98E096F0E4"
+					item: "frightsdelight:bone_crate"
+					type: "item"
+				}
+			]
+			subtitle: "多余的种子可以让它变废为宝！"
+			tasks: [{
+				id: "17A583BCAB8F476A"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			title: "种子处理机！"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"413407BBEB4772D2"
+				"6C480C4AE3ED2711"
+			]
+			id: "606E1615F027BC8C"
+			rewards: [{
+				id: "4082306467E40870"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "铛~"
+			tasks: [{
+				id: "191951484E92C3E0"
+				item: "minecraft:bell"
+				type: "item"
+			}]
+			title: "起来干活！"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "4CD07B3340287C88"
+			rewards: [
+				{
+					id: "7208E948A2663770"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4B19A9778813AC7A"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+			]
+			subtitle: "而我的家里没有草原......"
+			tasks: [{
+				id: "3D3EC29F95B78DC2"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "爱上一匹野马！"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "4356BE9DF89F3A56"
+			rewards: [{
+				id: "16018373A4C6EB67"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "防止刷新！"
+			tasks: [{
+				id: "70F950767C4EE4E8"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			title: "狗牌！"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["067D526B5BE25135"]
+			id: "70212AFF34F35C4B"
+			rewards: [{
+				id: "7F9D6FC546D3D8F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "潮涌核心的核心！"
+			tasks: [{
+				id: "665DEB1EE2CDF595"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "海洋的心！"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "07B1CF26A5BAFA82"
+			subtitle: "大海啊大海！"
+			tasks: [{
+				id: "532362A861FE17EE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
+				title: "Any #minecraft:boats"
+				type: "item"
+			}]
+			title: "我就要远航！"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "534244AB18184293"
+			rewards: [{
+				id: "64C8931D873D090B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "寻宝！"
+			tasks: [{
+				id: "08ACE3ECC4B7AB3E"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "考古学！"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "6FA0FEA8536152D8"
+			rewards: [{
+				id: "14A4804D499D2E70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作望远镜！"
+			tasks: [{
+				id: "00F45261ADF080B1"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			title: "站得高，望的远！"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09B09869E14F34BA"]
+			id: "76BF13773057B44F"
+			rewards: [
+				{
+					id: "6C26114963B179AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "4526B5890E644601"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4BDDEBB615F4553E"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+				{
+					id: "4948D352AF7C0C50"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "医学大成就！"
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "45969631939D3C45"
+				title: "僵尸科医生！"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6664015DE08B8C60"]
+			icon: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+			id: "1FD76DDF58B0DF32"
+			rewards: [
+				{
+					id: "69D510FEF8B8E6A1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0A175BC66CB51E14"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "23999985F448B85B"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "万丈高楼平地起！"
+			tasks: [{
+				id: "2E164E17DD13E9CF"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "建筑权杖！"
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["56E90AB30094CCFA"]
+			id: "44CA61E7749C26F6"
+			rewards: [{
+				id: "31CF6A527745F5C4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "生产力发展了！"
+			tasks: [{
+				id: "19C6BFA06024CC77"
+				item: "astikorcarts:animal_cart"
+				type: "item"
+			}]
+			title: "铁犁牛耕！"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "7647E13EA2B31FCC"
+			rewards: [{
+				id: "0835835EF316563E"
+				item: "exposure:black_and_white_film"
+				type: "item"
+			}]
+			subtitle: "拍摄美好的瞬间吧！"
+			tasks: [{
+				id: "60CACF2332C0D290"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			title: "记录世界，记录你！"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C417AD3BB47A196"]
+			id: "2ACA2CBE2D0B7BDD"
+			rewards: [
+				{
+					id: "45AFEA0D0BE621F8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "752577CCB071DE52"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "逝去的青春......在这里......"
+			tasks: [{
+				id: "3D9627B1C80C9A22"
+				item: "exposure:album"
+				type: "item"
+			}]
+			title: "回忆录！"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7647E13EA2B31FCC"]
+			id: "6C417AD3BB47A196"
+			rewards: [
+				{
+					id: "7949BFFCAC4BC905"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3EB8B98264F999F0"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "609EF9423B09E903"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6073044392262822"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "27FAE6E28D266290"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+			]
+			subtitle: "洗照片！"
+			tasks: [{
+				id: "190B35CBDD800C20"
+				item: "exposure:lightroom"
+				type: "item"
+			}]
+			title: "暗房！"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74B8E585EFDBC1F0"]
+			id: "61073A802CDE25A4"
+			rewards: [
+				{
+					id: "100450314F81EEB9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6D69AAA0111F1C32"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A147980090CD237"
+				item: "minecraft:target"
+				type: "item"
+			}]
+			title: "百步穿杨！"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AF9D3E686A29BA9"]
+			id: "64957B9FFA9D1F7D"
+			rewards: [{
+				id: "125F890C48458C32"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "加丝避雷！避雷！"
+			tasks: [{
+				id: "01C7E4AA01568F5B"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			title: "避雷！"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "2943B53B109D65EB"
+			rewards: [{
+				id: "3FFA2480029833E3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "自动收集！"
+			tasks: [{
+				id: "2AD36FAF5CC5771F"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "漏斗！"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2F2059F1C34091CE"]
+			id: "2246CB234A1126E2"
+			rewards: [{
+				id: "1B23E29A8D15EE8F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "推动方块！"
+			tasks: [{
+				id: "1B5CF564ECDB39D6"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			title: "活塞！"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2F2059F1C34091CE"]
+			id: "395256B8701AE014"
+			rewards: [
+				{
+					id: "10FEC66A762669E6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "42F4AD63BC27879B"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+			]
+			subtitle: "可以推走方块，还可以拉回方块！"
+			tasks: [{
+				id: "778BDBFD957D0BF5"
+				item: "minecraft:sticky_piston"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2F2059F1C34091CE"]
+			id: "554386F8E09131AB"
+			rewards: [{
+				id: "758691B62D7E8584"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "它可以延长红石的信号！"
+			tasks: [{
+				id: "586077728FD91F49"
+				item: "minecraft:repeater"
+				type: "item"
+			}]
+			title: "继电器！"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["56E90AB30094CCFA"]
+			id: "081A7CEF2EEA5424"
+			rewards: [{
+				id: "51269BC7D9B85741"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "获得皮革！"
+			tasks: [{
+				id: "4530B89B104DD8DC"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "斗牛士！"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E651CF796DA5B5C"]
+			id: "7FA0F83A62316092"
+			subtitle: "原始人利用燧石的碰撞火花来生火！"
+			tasks: [{
+				id: "4F39EA839B67E4A0"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "打火石！"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FA0F83A62316092"]
+			id: "5E5C9A61A774D8D6"
+			rewards: [{
+				id: "34C82919047D497E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "燃烧吧！"
+			tasks: [{
+				id: "081ECF5EAC0D15D8"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "打火机！"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "3FF4DBB1A70AF968"
+			rewards: [{
+				id: "1B5B141F591454FF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "反弹！"
+			tasks: [{
+				id: "6CAFD6B7FE3B0B8E"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "难以穿透的装甲！"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["45FD11F38E31FA3B"]
+			id: "38BCAD77BCCD11F6"
+			rewards: [{
+				id: "7393C374A316EF60"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				type: "item"
+			}]
+			subtitle: "我要挽弓射大雕！"
+			tasks: [{
+				id: "723A25DD846CD32B"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "射雕英雄传！"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38BCAD77BCCD11F6"]
+			id: "74B8E585EFDBC1F0"
+			rewards: [{
+				id: "23E580A8F24F0D8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "弩的发明改变了古代战争的格局！"
+			tasks: [{
+				id: "6CB6A0793901ED05"
+				item: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "诸葛连弩！"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"38BCAD77BCCD11F6"
+				"2F2059F1C34091CE"
+			]
+			id: "70246C1020823E07"
+			rewards: [
+				{
+					id: "6EE83737A75AC3D3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "517D7F3C6979F329"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			subtitle: "丛林神庙的黑枪！"
+			tasks: [{
+				id: "12D39C0C4AF5C2AF"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			title: "发射器！"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2F2059F1C34091CE"]
+			id: "4F3E4B0969C61368"
+			rewards: [{
+				id: "587B04ABCC6D841C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "抽奖机（"
+			tasks: [{
+				id: "14A7AF8952B6F109"
+				item: "minecraft:dropper"
+				type: "item"
+			}]
+			title: "投掷器！"
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2F2059F1C34091CE"]
+			id: "4980B46A18B0DF8C"
+			rewards: [{
+				id: "451633723A778B37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "测量工具！"
+			tasks: [{
+				id: "7B29121ABAD8199F"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			title: "比较器！"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7001DC2C1CCC76A9"
+				"2F2059F1C34091CE"
+			]
+			id: "12902A85258855CC"
+			rewards: [{
+				id: "0F131731404ECA67"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "光能！"
+			tasks: [{
+				id: "567FBAAFE1E9E4D0"
+				item: "minecraft:daylight_detector"
+				type: "item"
+			}]
+			title: "阳光传感器！"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0034439839BE156C"]
+			id: "2F2059F1C34091CE"
+			rewards: [{
+				id: "4BCE986F8EE9A3D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作红石块！"
+			tasks: [{
+				id: "7636202E142C98DA"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			title: "无限能源！"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "41C4736BDB9739F0"
+			rewards: [
+				{
+					id: "3C02DB609F483A78"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 4
+					id: "2D801CBFAA5A75AB"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			subtitle: "老六！"
+			tasks: [{
+				id: "4D5211C15B553A81"
+				item: "minecraft:tripwire_hook"
+				type: "item"
+			}]
+			title: "绊线钩！"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6F7312BCDD2DFBDD"]
+			id: "5DD2203D841783F3"
+			rewards: [{
+				id: "193676100F9DFF4C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "听到声音发出红石信号！"
+			tasks: [{
+				id: "0A977B1D3140B55B"
+				item: "minecraft:calibrated_sculk_sensor"
+				type: "item"
+			}]
+			title: "声敏传感器！"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2F2059F1C34091CE"
+				"7001DC2C1CCC76A9"
+			]
+			id: "3EB23F356B1E59DE"
+			rewards: [{
+				id: "344C7AE836032568"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "—_—"
+			tasks: [{
+				id: "3800DC235CD2C559"
+				item: "minecraft:observer"
+				type: "item"
+			}]
+			title: "侦测器！"
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38DCCBC162F7E38E"]
+			id: "040A8DC2608363C0"
+			rewards: [
+				{
+					count: 5
+					id: "245E11EEFD1B74F6"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+				{
+					id: "2F7E3312B78A2F0D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "获得龙首！"
+			tasks: [{
+				id: "19B7293FE708F650"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "龙首！"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "11DAC632DA943E1B"
+			rewards: [
+				{
+					id: "6F8B2BF5D089CD8A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0F9FDB345E896AD1"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "黑珍珠号在哪里？"
+			tasks: [{
+				id: "393A4BC141FF25B0"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "漆黑之眼！"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "3132CEB75EB678BA"
+			rewards: [
+				{
+					id: "30D740D116BA5FA5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "04CF9A01BDF731EE"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "不亡！"
+			tasks: [{
+				id: "5DAF1714127EB942"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "寒冰之眼！"
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "4F6A3F64879B2958"
+			rewards: [
+				{
+					id: "2519CDA43165E25F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "34EAD2B250E06066"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "坎瑞亚曾经来过......"
+			tasks: [{
+				id: "61BF488EE39EA29D"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "腐化之眼！"
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "399BD753401A59FB"
+			rewards: [
+				{
+					id: "7C212B24F0D29609"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5F942F0EF523E262"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "匠心传千古！"
+			tasks: [{
+				id: "7F88807FC691D3A1"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "迷离之眼！"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "6775B23F032085B9"
+			rewards: [
+				{
+					id: "44E09790EE483FD8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "610A0A213A3E2D5C"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "恶魔的眼睛？"
+			tasks: [{
+				id: "43269CF5FBC94BAA"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "下界之眼！"
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "4300C6E5EBC9DE6A"
+			rewards: [
+				{
+					id: "1B0D9EB7D7A2EA5A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "65FF057BA207D914"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "被尘封的故事......"
+			tasks: [{
+				id: "0F8C130CB3665B36"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "远古之眼！"
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "7CB19F0EEB3A6E22"
+			rewards: [
+				{
+					id: "64BF833182AA708A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "58320F46D22F253B"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "它散发着智慧！"
+			tasks: [{
+				id: "1EDA50BA56AB88AE"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "无赖之眼！"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "65B3A439F6C66A00"
+			rewards: [
+				{
+					id: "3D7B95718BDF0195"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4AA282C8451633F3"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "它是最美的珍珠！"
+			tasks: [{
+				id: "72CDDCFC074D63A0"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "守卫者之眼！"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "4A1924DCDA8FF850"
+			rewards: [
+				{
+					id: "376AC38AF7D4C300"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3358AE286915A5EC"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "唤魔者的法宝！"
+			tasks: [{
+				id: "544C1C0F7BBC1555"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "魔力之眼！"
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "42898F44003A82E8"
+			rewards: [
+				{
+					id: "7902A8F0D3B24FEA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "67E96EB4D129662B"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "凋零之力！"
+			tasks: [{
+				id: "061FED148B843A3A"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2688927697811DA5"]
+			id: "351BEE50B8C852EC"
+			rewards: [
+				{
+					id: "20939D8198373C3A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "17DC8E9DE157DF7A"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "它充满了魔力！"
+			tasks: [{
+				id: "49FDC6245AFB7EAD"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "女巫之眼！"
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "14D380DDCC5B2DA0"
+			rewards: [{
+				id: "18DF7C4407575076"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "打开宝箱！"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "11D650366E41DE29"
+				title: "宝藏！"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A6BA82C7FCF6CBF"]
+			id: "65A47CDBE3FDA778"
+			rewards: [{
+				id: "57F71821BFE3AC8A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "记录时间！"
+			tasks: [{
+				id: "110284B6473C62AB"
+				item: "vinery:calendar"
+				type: "item"
+			}]
+			title: "日历！"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65A47CDBE3FDA778"]
+			id: "25C4B441C8124FA3"
+			rewards: [{
+				id: "45977EC117EECFCB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "春夏秋冬！"
+			tasks: [{
+				id: "261D9358CF88CC54"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "四季分明！"
+			x: -8.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["基础的生存玩法！"]
+	title: "生存任务！"
+}

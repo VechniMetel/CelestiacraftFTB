@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "63C9A638F0D32092"
+	group: "61FDE72D569DB5C8"
+	id: "63C9A638F0D32092"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"你说，吃素能去西方极乐世界。"
+			""
+			""
+			""
+			"那吃肉是不是能去东方幻想乡？"
+		]
+		id: "659F8979AD502343"
+		subtitle: "万恶起源"
+		tasks: [{
+			id: "41FDBF401127FE21"
+			item: "touhou_little_maid:smart_slab_init"
+			type: "item"
+		}]
+		title: "东方幻想乡"
+		x: 0.0d
+		y: -3.0d
+	}]
+	title: "车万月共集体探头"
+}

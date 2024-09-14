@@ -1,0 +1,28 @@
+{
+	id: "0E312F44F89CE503"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "create_armorer:gas_pistol_ammo"
+				}
+			}
+		}
+		{
+			count: 60
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "immersive_armorer:burst_capacitor"
+				}
+			}
+		}
+	]
+	title: "初始子弹"
+}

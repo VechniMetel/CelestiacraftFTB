@@ -1,0 +1,1091 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "42A356D8833003C4"
+	group: ""
+	icon: "farmersdelight:roast_chicken_block"
+	id: "42A356D8833003C4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73C5553C8CCC196D"]
+			id: "3287645C1C9C03A9"
+			rewards: [{
+				id: "3A4ACD844D5F0D36"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "获得作物盛景模组的种子！"
+			tasks: [{
+				advancement: "croptopia:getseeds"
+				criterion: ""
+				id: "53028A0CA4D62988"
+				type: "advancement"
+			}]
+			title: "新作物！"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73C5553C8CCC196D"]
+			id: "450A9EEFE4976181"
+			rewards: [{
+				id: "277F147BB0151743"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "获得农夫乐事模组的作物！"
+			tasks: [{
+				advancement: "candlelight:main/find_wild_crops"
+				criterion: ""
+				icon: "farmersdelight:onion"
+				id: "6159311B42ECF0A0"
+				title: "野生作物！"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E651CF796DA5B5C"
+				"5F6DBB1F9AE91C18"
+			]
+			id: "7C9E5CC0E0F4A9C3"
+			rewards: [{
+				id: "461628DBA7622E71"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "我可以随意混搭！"
+			tasks: [{
+				id: "65291E7C251DB454"
+				item: "crockpot:crock_pot"
+				type: "item"
+			}]
+			title: "起锅烧油！"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C9E5CC0E0F4A9C3"]
+			id: "14917D4FB1C22F59"
+			rewards: [{
+				id: "75DD8E625CE9D5F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "随地大小饭！"
+			tasks: [{
+				id: "4A3C4F5154CB31D0"
+				item: "crockpot:portable_crock_pot"
+				type: "item"
+			}]
+			title: "便携式！"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C9E5CC0E0F4A9C3"]
+			id: "5B32E7E51A753502"
+			rewards: [
+				{
+					id: "33A570306744A44E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5896BADB2E1EE24C"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "看来你要好好的练习厨艺了！"
+			tasks: [{
+				id: "41B13BDDF1582A35"
+				item: "crockpot:wet_goop"
+				type: "item"
+			}]
+			title: "不可描述的食物......"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73C5553C8CCC196D"]
+			id: "5F6DBB1F9AE91C18"
+			rewards: [{
+				id: "5FF051CED80E7618"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "把它种在土地里面吧！"
+			tasks: [{
+				id: "3417D10720638E50"
+				item: "crockpot:unknown_seeds"
+				type: "item"
+			}]
+			title: "这是什么？"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"450A9EEFE4976181"
+				"37ECEBB36EC5B4BF"
+			]
+			id: "4F09BCCE47419975"
+			rewards: [{
+				id: "0367DFDCCF59B1CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作炉灶！"
+			tasks: [{
+				id: "5F773995C0A1247F"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			title: "开小灶！"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F09BCCE47419975"]
+			id: "6061CAC0279F53E1"
+			rewards: [{
+				id: "23E119A4CC4FA8A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作厨锅！"
+			tasks: [{
+				id: "246C7C59CF5D3EFD"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "铁锅炖！"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F09BCCE47419975"]
+			id: "176ABD377EB39D4E"
+			rewards: [{
+				id: "01CF2416AFE1EF28"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "我一定会回来的！"
+			tasks: [{
+				id: "4000C41DDA1386FB"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "平底锅！"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F09BCCE47419975"]
+			id: "0CDDD792CD1BD7E4"
+			rewards: [{
+				id: "620533D95E6A095A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "切菜！"
+			tasks: [{
+				id: "4B9E525E26C4D55C"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "菜板！"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6061CAC0279F53E1"]
+			id: "79794AA236B75225"
+			rewards: [
+				{
+					id: "5243232F274CA01F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0B05753E57707F9E"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "制作美味的烤鸡！"
+			tasks: [{
+				id: "7713FCF130DA90E2"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			title: "感恩！"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6061CAC0279F53E1"]
+			id: "0FB3D6DE78444873"
+			rewards: [
+				{
+					id: "4E28E5BBE5DA0303"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7AE9FEE3144CDA10"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "制作美味的牧羊人派！"
+			tasks: [{
+				id: "4EBEB90F4DB4F40A"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			title: "牧羊乐事！"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6061CAC0279F53E1"]
+			id: "61FAD3288BF476F2"
+			rewards: [
+				{
+					id: "202D7487498E6F5F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7A190E87AE22E1AB"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "制作蜜汁火腿！"
+			tasks: [{
+				id: "3900745C369DF11F"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			title: "蒙德特色菜！"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6061CAC0279F53E1"]
+			id: "378A98367FD07363"
+			rewards: [
+				{
+					id: "231384F4FB37DE28"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0136DC3EA56904CC"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "南瓜还能这样吃？！"
+			tasks: [{
+				id: "017E0FC97740F635"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "真·南瓜派！"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6061CAC0279F53E1"]
+			id: "41EE15321AE78EEA"
+			rewards: [
+				{
+					id: "38B699A1E6D44283"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4A104C9B8C891826"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "哦依稀！"
+			tasks: [{
+				id: "243E62E7E617C191"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			title: "日式料理！"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3287645C1C9C03A9"
+				"37ECEBB36EC5B4BF"
+			]
+			id: "1889BBC574629F09"
+			rewards: [{
+				id: "1D1A23A0B64E6B0E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作烹饪锅！"
+			tasks: [{
+				id: "40EA66C19B0AEB54"
+				item: "croptopia:cooking_pot"
+				type: "item"
+			}]
+			title: "大锅饭！"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3287645C1C9C03A9"
+				"37ECEBB36EC5B4BF"
+			]
+			id: "501B258009A7CBC1"
+			rewards: [{
+				id: "33D3CA3B2283E547"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作多功能食品压榨机！"
+			tasks: [{
+				id: "33F61D180D007D20"
+				item: "croptopia:food_press"
+				type: "item"
+			}]
+			title: "榨汁机！"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3287645C1C9C03A9"
+				"37ECEBB36EC5B4BF"
+			]
+			id: "59DA51EA3DCD780E"
+			rewards: [{
+				id: "51B4123EBBA7C54B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作平底锅！"
+			tasks: [{
+				id: "361275835A93022F"
+				item: "croptopia:frying_pan"
+				type: "item"
+			}]
+			title: "煎炒烹炸！"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3287645C1C9C03A9"]
+			id: "4B9B5B65F4C442C9"
+			rewards: [{
+				id: "196FABFB6AECBFB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作研钵！"
+			tasks: [{
+				id: "2EE4A3D2BEC2A97A"
+				item: "croptopia:mortar_and_pestle"
+				type: "item"
+			}]
+			title: "捣啊捣！"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3287645C1C9C03A9"
+				"37ECEBB36EC5B4BF"
+			]
+			id: "334EC0178DA562AB"
+			rewards: [{
+				id: "5DE07C7D9B2FD0D1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作菜刀！"
+			tasks: [{
+				id: "1C48E9C6658F4447"
+				item: "croptopia:knife"
+				type: "item"
+			}]
+			title: "功夫再高！"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "445B7293231F149D"
+			rewards: [{
+				id: "611E623CB331855B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "甜点时间到！"
+			tasks: [{
+				id: "5ED76B3E9D7CC381"
+				item: "bakery:brick_stove"
+				type: "item"
+			}]
+			title: "红砖烤炉！"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["445B7293231F149D"]
+			id: "56AABB3CCC771ACB"
+			rewards: [{
+				id: "5CBCD3954CB7CA13"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作烘焙台！"
+			tasks: [{
+				id: "02D56EE54232CCE2"
+				item: "bakery:baker_station"
+				type: "item"
+			}]
+			title: "甜点师！"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56AABB3CCC771ACB"]
+			id: "69C78D23307B429F"
+			rewards: [{
+				id: "31CF015F1B9F9A17"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作料理碗！"
+			tasks: [{
+				id: "4CC6125418F26C14"
+				item: "bakery:crafting_bowl"
+				type: "item"
+			}]
+			title: "混合在一起！"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56AABB3CCC771ACB"]
+			id: "760D79F91A1E9126"
+			rewards: [{
+				id: "2C0242F7229460E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作小烹饪锅！"
+			tasks: [{
+				id: "493EE60FCE4E7BBA"
+				item: {
+					Count: 1
+					id: "bakery:small_cooking_pot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "小烹饪锅！"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56AABB3CCC771ACB"]
+			id: "7BD8269193F63BF6"
+			rewards: [
+				{
+					id: "2A7230AC4260B06F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7939FDB378FD78B3"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "制作美味的草莓蛋糕！"
+			tasks: [{
+				id: "4AF742744D567297"
+				item: "bakery:strawberry_cake"
+				type: "item"
+			}]
+			title: "草莓蛋糕！"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56AABB3CCC771ACB"]
+			id: "69EBF2695B96A8E0"
+			rewards: [
+				{
+					id: "3D9798A7009BABF0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6448717D3808C5CC"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "制作美味的甜浆果蛋糕！"
+			tasks: [{
+				id: "77DBF8B991CB9C73"
+				item: "bakery:sweetberry_cake"
+				type: "item"
+			}]
+			title: "水果蛋糕！"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56AABB3CCC771ACB"]
+			id: "175AA34BC181D5C1"
+			rewards: [
+				{
+					id: "1631C6C0CCDAA4C0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0D34811867E8CD45"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "制作美味的巧克力蛋糕！"
+			tasks: [{
+				id: "4B31F9CD71DDB6A3"
+				item: "bakery:chocolate_cake"
+				type: "item"
+			}]
+			title: "巧克力蛋糕！"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["56AABB3CCC771ACB"]
+			id: "4BE0B1958532AF95"
+			rewards: [
+				{
+					id: "40F08A35C49C4949"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2208B668C24713B2"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "制作美味的法式巧克力大蛋糕！"
+			tasks: [{
+				id: "46756859A8755D92"
+				item: "bakery:chocolate_gateau"
+				type: "item"
+			}]
+			title: "豪华蛋糕！"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "530AA81F9EFD2BC9"
+			rewards: [{
+				id: "5DF51D41E440DB43"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "烧烤时间到！"
+			tasks: [{
+				id: "2F5C29519496E1D9"
+				item: "barbequesdelight:grill"
+				type: "item"
+			}]
+			title: "芭比Q！"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["530AA81F9EFD2BC9"]
+			id: "671D1583D9E0FFE9"
+			rewards: [{
+				id: "522F5B5749E358CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "撒点孜然更香！"
+			tasks: [{
+				id: "39F98DD813E29E11"
+				item: {
+					Count: 1
+					id: "barbequesdelight:cumin_powder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "孜然！"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["530AA81F9EFD2BC9"]
+			id: "0620A6C3334644C8"
+			rewards: [{
+				id: "018AA9D9614563EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "辣味会让你上瘾！"
+			tasks: [{
+				id: "5D0433191EEA078F"
+				item: {
+					Count: 1
+					id: "barbequesdelight:chili_powder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "辣椒粉！"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["530AA81F9EFD2BC9"]
+			id: "568A70C9049BABAF"
+			rewards: [{
+				id: "31C4A800FE40F365"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "太香啦！"
+			tasks: [{
+				id: "57E94006A064C18C"
+				item: {
+					Count: 1
+					id: "barbequesdelight:pepper_powder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "胡椒面！"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "1864D85E69C65483"
+			rewards: [{
+				id: "05BA56C82C526585"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作木烘干仓！"
+			tasks: [{
+				id: "34B7E3C2F2F1C84A"
+				item: "brewery:silo_wood"
+				type: "item"
+			}]
+			title: "烘干仓！"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "62E0148CEE4B5A46"
+			rewards: [{
+				id: "3CA7F3C11AE8C572"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作木酿造站！"
+			tasks: [{
+				id: "41D1A57832B39C38"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "酿造站！"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["442EDF1950900ECB"]
+			id: "7598FBEADDC21096"
+			rewards: [{
+				id: "4AEBF38A707CA137"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "我们还能不能能不能再见面！"
+			tasks: [{
+				id: "4C518AAB42287943"
+				item: "brewery:barrel_main"
+				type: "item"
+			}]
+			title: "奈何桥......嘿嘿！"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["530AA81F9EFD2BC9"]
+			id: "2125A959D966996A"
+			rewards: [
+				{
+					id: "1F444A9CE29033D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10730E34DCF20811"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "看来你得苦练烤串技术了！"
+			tasks: [{
+				id: "34A3C6F1348E157D"
+				item: "barbequesdelight:burnt_skewer"
+				type: "item"
+			}]
+			title: "火化！"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["461FDE7E68C732C8"]
+			id: "198F584A0E7E3F7E"
+			rewards: [{
+				id: "558E9D394EF8986B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "三点几啦！"
+			tasks: [{
+				id: "2C15951F4E09A084"
+				item: "herbalbrews:stove"
+				type: "item"
+			}]
+			title: "饮茶先啦！"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["198F584A0E7E3F7E"]
+			id: "2E041F22C9837AA3"
+			rewards: [{
+				id: "2F53C54EE1D94455"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "开始养生！"
+			tasks: [{
+				id: "30F08385CC2345DA"
+				item: "herbalbrews:tea_kettle"
+				type: "item"
+			}]
+			title: "品茗！"
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["198F584A0E7E3F7E"]
+			id: "615132DF1CFDFE9E"
+			rewards: [{
+				id: "20997B3813F42552"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作酿煮锅！"
+			tasks: [{
+				id: "030219312ED2B9AD"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			title: "东方树叶！"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"62E0148CEE4B5A46"
+				"1864D85E69C65483"
+				"7598FBEADDC21096"
+			]
+			id: "10C3BBB7368435E6"
+			rewards: [
+				{
+					id: "6B1F46141DDCF245"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D987F191C4BEDB8"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "干杯！"
+			tasks: [{
+				id: "7AE35EC4643C3747"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			title: "小麦果汁！"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"62E0148CEE4B5A46"
+				"1864D85E69C65483"
+				"7598FBEADDC21096"
+			]
+			id: "61117FE6CAC7862F"
+			rewards: [
+				{
+					id: "2F9CC42D77BDAC24"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0F6F2074F054F1A2"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "干杯！"
+			tasks: [{
+				id: "0DF7D6002D4DD3F3"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			title: "大麦啤酒！"
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1864D85E69C65483"
+				"62E0148CEE4B5A46"
+				"7598FBEADDC21096"
+			]
+			id: "65F0BF8DDE50B3E8"
+			rewards: [
+				{
+					id: "3DB6B99FC4164320"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "65F8BB84A75CE397"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "干杯！"
+			tasks: [{
+				id: "6693A56D1C07DC35"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			title: "酒花啤酒！"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7598FBEADDC21096"
+				"1864D85E69C65483"
+				"62E0148CEE4B5A46"
+			]
+			id: "3B862F15C5DCB1FF"
+			rewards: [
+				{
+					id: "78ADA1FAE57E5C01"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+				{
+					id: "41DB40F134612CC1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "喝飘了（确信）"
+			tasks: [{
+				id: "017285BB56038045"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			title: "海莉啤酒！"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "461FDE7E68C732C8"
+			rewards: [{
+				id: "4E32BF7DA5FCDD47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "事已至此，先喝茶吧！"
+			tasks: [{
+				id: "3F2349EE84B5EE89"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "茶壶！"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "6659EBE2251B1F84"
+			rewards: [{
+				id: "1159F4D9D19E48E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "储存葡萄酒的桶！"
+			tasks: [{
+				id: "445E3888002FE553"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			title: "陈酿桶！"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "202DA775B4B39274"
+			rewards: [{
+				id: "2D10FF5A16125825"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "压榨！"
+			tasks: [{
+				id: "1B90A274A14965E7"
+				item: "vinery:apple_press"
+				type: "item"
+			}]
+			title: "苹果压榨器！"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["37ECEBB36EC5B4BF"]
+			id: "56848371558B1945"
+			rewards: [{
+				id: "42B761FBEC37444C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "玉足葡萄酒！"
+			tasks: [{
+				id: "105CCE423727E9FB"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			title: "玉足！"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["198F584A0E7E3F7E"]
+			id: "72CAA73A37F436DD"
+			rewards: [{
+				id: "43B94D21BA9B67C8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作扎壶！"
+			tasks: [{
+				id: "5168D0C172BE0005"
+				item: {
+					Count: 1
+					id: "herbalbrews:jug"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "扎壶！"
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"6659EBE2251B1F84"
+				"56848371558B1945"
+				"202DA775B4B39274"
+			]
+			id: "5D0B4DCF699B7DD8"
+			rewards: [
+				{
+					id: "06F27C6F8B13454C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "57CA483F576FA5DB"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "制作第一瓶红酒！"
+			tasks: [{
+				id: "4CAC020B699566B2"
+				item: {
+					Count: 1
+					id: "vinery:red_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "82年拉菲！"
+			x: -5.0d
+			y: 9.0d
+		}
+	]
+	subtitle: ["远离机械的喧嚣，开启快乐的养老时光！"]
+	title: "农业任务！"
+}

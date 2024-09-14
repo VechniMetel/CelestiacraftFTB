@@ -1,0 +1,223 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "40A5F8065EC867F7"
+	group: "61FDE72D569DB5C8"
+	icon: "umapyoi:crystal_rainbow"
+	id: "40A5F8065EC867F7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["024902F315461A53"]
+			id: "6D5713BD1DE767E8"
+			rewards: [
+				{
+					id: "7F7DA5D6DA6BAB63"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "22C4804F80542A84"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			subtitle: "这个萝卜可不一般！"
+			tasks: [{
+				id: "650D2DE186C4EF40"
+				item: "umapyoi:jewel"
+				type: "item"
+			}]
+			title: "保卫萝卜！"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D5713BD1DE767E8"]
+			id: "45475B7CDF267BB9"
+			rewards: [{
+				id: "3327A1424C7C9B83"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "把萝卜宝石放在上面！"
+			tasks: [{
+				id: "6A4326482BF365AA"
+				item: "umapyoi:uma_pedestal"
+				type: "item"
+			}]
+			title: "召唤师！"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45475B7CDF267BB9"]
+			id: "376923A1F562C2AE"
+			rewards: [{
+				id: "7202765445AAB09C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "获取褪色马娘之魂！"
+			tasks: [{
+				id: "63B7C5FADBDD6E5F"
+				item: {
+					Count: 1
+					id: "umapyoi:blank_uma_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "马娘之魂！"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["376923A1F562C2AE"]
+			id: "4C5C9C4A9EB0E03D"
+			rewards: [{
+				id: "68C46B10B7302FFA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "把马娘之魂放在里面有惊喜！"
+			tasks: [{
+				id: "7310D02CFAC75C60"
+				item: "umapyoi:three_goddess"
+				type: "item"
+			}]
+			title: "三女神像！"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C5C9C4A9EB0E03D"]
+			id: "228208CFF4C50F28"
+			rewards: [{
+				id: "3154C924600A5AED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "开始训练你的马娘吧！"
+			tasks: [{
+				id: "7FD97AFDFD9C9759"
+				item: "umapyoi:training_facility"
+				type: "item"
+			}]
+			title: "训马师！"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["228208CFF4C50F28"]
+			id: "636837C259E2C73F"
+			rewards: [{
+				id: "51DA6F30D889FE5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "让你的马娘学习更多技能吧！"
+			tasks: [{
+				id: "5C6B7ED87980B1CA"
+				item: "umapyoi:skill_learning_table"
+				type: "item"
+			}]
+			title: "活到老！学到老！"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["636837C259E2C73F"]
+			id: "7C76C12C46238BD3"
+			rewards: [{
+				id: "397B3EBA307C0102"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作育成登记台！"
+			tasks: [{
+				id: "5D777A9DF9F08A11"
+				item: "umapyoi:register_lectern"
+				type: "item"
+			}]
+			title: "育成登记台！"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["636837C259E2C73F"]
+			id: "7A0736AA5475A270"
+			rewards: [{
+				id: "42786090AF523233"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作移籍登记台！"
+			tasks: [{
+				id: "276FA09841A9A1D1"
+				item: "umapyoi:disassembly_block"
+				type: "item"
+			}]
+			title: "转移户籍！"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["636837C259E2C73F"]
+			id: "0D4BB2EE3FD9621C"
+			rewards: [{
+				id: "06AA92697CCC0E55"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "制作自选登记台！"
+			tasks: [{
+				id: "7D9AF73C680B2164"
+				item: "umapyoi:uma_select_block"
+				type: "item"
+			}]
+			title: "自选五星！"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["45475B7CDF267BB9"]
+			id: "713F95A79BD591ED"
+			rewards: [{
+				id: "6AA3E58599A917AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "合成单抽券来抽取更好的马娘吧！"
+			tasks: [{
+				id: "2493A9323EEDB498"
+				item: "umapyoi:blank_ticket"
+				type: "item"
+			}]
+			title: "抽五星！"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["376923A1F562C2AE"]
+			id: "005C987B41236C33"
+			rewards: [{
+				id: "283C81BAB5B77B21"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "马娘心情不好？一块蛋糕哄好！"
+			tasks: [{
+				id: "7F295FECB4424976"
+				item: "umapyoi:sweet_cupcake"
+				type: "item"
+			}]
+			title: "多巴胺！"
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["哈基米！哈基米！哈基米！"]
+	title: "召唤一只赛马娘"
+}

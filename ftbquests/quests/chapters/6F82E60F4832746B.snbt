@@ -1,0 +1,459 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6F82E60F4832746B"
+	group: "61FDE72D569DB5C8"
+	icon: "ars_nouveau:creative_spell_book"
+	id: "6F82E60F4832746B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["413407BBEB4772D2"]
+			id: "79D7DD5E2BDD83DD"
+			rewards: [{
+				id: "7E2C01E1992CA634"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "放入紫水晶/青金石！"
+			tasks: [{
+				id: "4A89539764A65B19"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "灌注室！"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79D7DD5E2BDD83DD"]
+			id: "177D16C02379DCC8"
+			rewards: [{
+				id: "6A3DBA5BF4667E0B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "探测！"
+			tasks: [{
+				id: "27B526C3E368D1F5"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "占卜师！"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79D7DD5E2BDD83DD"]
+			id: "11A2D00B5CD0817A"
+			rewards: [{
+				id: "2B4F6C611152DB64"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "农作物自然生长为其提供能量！"
+			tasks: [{
+				id: "708C04A21D121E75"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			title: "农业魔法！"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79D7DD5E2BDD83DD"]
+			id: "0C62A0BD626C8C17"
+			rewards: [{
+				id: "4CED92632E73AA02"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "药水的魔力为其提供能量！"
+			tasks: [{
+				id: "3C7E26BD047BE8C1"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			title: "炼金术师！"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C62A0BD626C8C17"]
+			id: "057AD2240B28125E"
+			subtitle: "炼金魔源通道需要它！"
+			tasks: [{
+				id: "5DB76E4ECCA3E260"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			title: "药罐！"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79D7DD5E2BDD83DD"]
+			id: "2B5B559947EBFDE9"
+			rewards: [{
+				id: "703B16859A5126D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "灵魂为其提供能量！"
+			tasks: [{
+				id: "2FDFAB3DB8C6045B"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			title: "超越生死！"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79D7DD5E2BDD83DD"]
+			id: "52D55E74AA00536B"
+			rewards: [{
+				id: "7847890F7D47E0FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "进食为其提供能量！"
+			tasks: [{
+				id: "7CA86D778180D6BF"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			title: "吃播！"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79D7DD5E2BDD83DD"]
+			id: "549F3D4434161BDB"
+			rewards: [{
+				id: "412D731AA9136C87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "吸收热量为其提供能量！"
+			tasks: [{
+				id: "155D35B803772E54"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			title: "火焰的力量！"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79D7DD5E2BDD83DD"]
+			id: "6BDC72E73A610A38"
+			rewards: [{
+				id: "6973593FF11123F5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "在灌注台旁边放三个！"
+			tasks: [{
+				id: "21930388E95F5A36"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			title: "奥术！"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79D7DD5E2BDD83DD"]
+			id: "7936DDCBAEB46D46"
+			rewards: [{
+				id: "74BE8FC5C11E2B58"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "合成法术书！"
+			tasks: [{
+				id: "272DE9A7EF3D80BB"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "魔法师！"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7936DDCBAEB46D46"]
+			id: "1658C4811562E040"
+			rewards: [{
+				id: "0F0333648707A759"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "学习魔法技能！"
+			tasks: [{
+				id: "3FDE31EE44C14365"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "整理笔记！"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1658C4811562E040"]
+			id: "1E6E984CD2A83250"
+			rewards: [{
+				id: "639EC7233B178820"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "放在奥术核心的上面！周围摆八个奥术基座！"
+			tasks: [{
+				id: "7302C82925A03BA3"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			title: "高级附魔！"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E6E984CD2A83250"]
+			id: "2173860D1F0EB925"
+			rewards: [{
+				id: "6D99822F65675C70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "精简版信标！"
+			tasks: [{
+				id: "0FB30E38CEAB237F"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "仪式火盆！"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11A2D00B5CD0817A"]
+			id: "05234B1975377DF2"
+			rewards: [{
+				id: "50148E7DDECDD43E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "它的纤维是制作法术装备的原料！"
+			tasks: [{
+				id: "12EFB1AE5759A8F1"
+				item: "ars_nouveau:magebloom"
+				type: "item"
+			}]
+			title: "法术之花！"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05234B1975377DF2"]
+			id: "7650D61C415AF971"
+			rewards: [{
+				id: "73896511DDCAECDF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "强化你的法术装备！"
+			tasks: [{
+				id: "0C1D77F5091BB0A1"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			title: "改衣台！"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["057AD2240B28125E"]
+			id: "7657BC1ABE062EC5"
+			rewards: [{
+				id: "6912829D70B720CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "创新药品！"
+			tasks: [{
+				id: "17141A52C6B9F7AB"
+				item: "ars_nouveau:potion_melder"
+				type: "item"
+			}]
+			title: "混合药水！"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7657BC1ABE062EC5"]
+			id: "37F4F7CF4588C9AD"
+			rewards: [{
+				id: "2C9135D1386FAAC3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "搅拌药水需要它！"
+			tasks: [{
+				id: "551CED15865AEE05"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "支配之杖！"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7657BC1ABE062EC5"]
+			id: "53198764D10C7F21"
+			rewards: [{
+				id: "461A06F7FAA18020"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "完全不浪费！"
+			tasks: [{
+				id: "07DBBDE69447A1C7"
+				item: "ars_nouveau:potion_diffuser"
+				type: "item"
+			}]
+			title: "药水散布器！"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A9D74709AFA070F"
+				"61790A01EC147106"
+				"2B6CAB5E40935B78"
+			]
+			id: "0FDF662D2931989C"
+			rewards: [
+				{
+					id: "1861A38AA0137AB7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2B036B4E3425B8EB"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "它貌似可以激活什么BOSS！放入仪式火盆吧！"
+			tasks: [{
+				id: "54BC0A97F27A3F53"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			title: "召唤师！"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2173860D1F0EB925"]
+			id: "3A9D74709AFA070F"
+			rewards: [{
+				id: "6C700F83AB60AB74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "荒野猎手！"
+			tasks: [{
+				id: "39BD8C98B8C6512F"
+				item: "ars_nouveau:wilden_horn"
+				type: "item"
+			}]
+			title: "荒野之角！"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2173860D1F0EB925"]
+			id: "61790A01EC147106"
+			rewards: [{
+				id: "6610EEC0796FD4CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "击杀荒野守卫者！"
+			tasks: [{
+				id: "1B0A0BD6865AAB8D"
+				item: "ars_nouveau:wilden_spike"
+				type: "item"
+			}]
+			title: "荒野尖刺！"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2173860D1F0EB925"]
+			id: "2B6CAB5E40935B78"
+			rewards: [{
+				id: "748BFF6177B6B68B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "击杀荒野伏击者！"
+			tasks: [{
+				id: "4F570EF5741CCC70"
+				item: "ars_nouveau:wilden_wing"
+				type: "item"
+			}]
+			title: "荒野膜翼！"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0FDF662D2931989C"]
+			id: "604FF6075126269A"
+			rewards: [
+				{
+					id: "03B86EB7BD79141C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "71ECA94A944E7098"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "0C17F656CEECF3BA"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+			]
+			subtitle: "击杀荒野奇美拉！"
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "71404EF7D1A2932B"
+				title: "荒野之王！"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+	]
+	subtitle: ["巴啦啦能量！（bushi）"]
+	title: "新生魔艺"
+}

@@ -1,0 +1,1504 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "666DC57D79722A8C"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "666DC57D79722A8C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "4658F2DAF207642B"
+			rewards: [
+				{
+					id: "4C77316C80E91559"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "642B26D98280A47A"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "7B63873F9DD2E8B1"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					id: "37C3C3B83FD629A6"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "你好陌生人，GRW团队生了！"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "322B4CD24CF47208"
+				title: "还是PVP大佬！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "6F48CBF41362763B"
+			rewards: [
+				{
+					id: "5831E444E9A25369"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "368459543AE1EBEF"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "709C4982F2BD3775"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "403FDABE506BBA14"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "嘟嘟哒嘟嘟哒！"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "431CF76C765B1AA4"
+				title: "骷髅打金服！"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "7644EEA9FEE20557"
+			rewards: [
+				{
+					id: "1663C4F4B569E8FC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "486438AF2A21E5CD"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "03EAD07C6708388C"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+				{
+					id: "0AF0FF28DCFA7EBD"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "WTF"
+			tasks: [{
+				id: "32585551E65074EB"
+				item: "minecraft:creeper_head"
+				type: "item"
+			}]
+			title: "Creeper?"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "2205CCAA75874065"
+			rewards: [
+				{
+					id: "3EA462A5D3AF7A21"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "324C45218ECF5639"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6E3F978DD33E6C1E"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只蜘蛛！"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "5D2832689ADE97DF"
+				title: "失败的man！"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "632E8622A31A2D31"
+			rewards: [
+				{
+					id: "4A7393DE06F2AEC0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "264525FC92182717"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "1B86760820491994"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只洞穴蜘蛛！"
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: "minecraft:cobweb"
+				id: "14D45A4DE64A131A"
+				type: "kill"
+				value: 100L
+			}]
+			title: "节肢杀手！"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "50D2265B85631D86"
+			rewards: [
+				{
+					id: "209385A86121BEA2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "54E32607B77EFEA3"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "2EB87CD7527585FD"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "QQ弹弹！"
+			tasks: [{
+				entity: "minecraft:slime"
+				icon: "minecraft:slime_ball"
+				id: "1EC82FB76DA283DF"
+				title: "大战史莱姆！"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "202C318AD3D14FA3"
+			rewards: [
+				{
+					id: "027ED372208DDDF4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5A1027E13A26E50A"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "36FE4E2C07391C24"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只幻翼！"
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3768E51D1CC06E65"
+				title: "炸弹小飞机！"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"508BB79B470A8C9A"
+				"07B1CF26A5BAFA82"
+			]
+			id: "295D02D9C6F68CEA"
+			rewards: [
+				{
+					id: "22A0C1DC2767C155"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7AE3B3850ABDDE40"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "0004926046E3E622"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只守卫者！"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:sponge"
+				id: "45C261CF758DB78B"
+				title: "食人鱼！"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"12EB0C0A82E46CE1"
+				"508BB79B470A8C9A"
+				"07B1CF26A5BAFA82"
+			]
+			id: "4CF19DC93A476AEA"
+			rewards: [
+				{
+					id: "3F847101B8BE50E4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3FB914A3F0E0076B"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6D67260E1C0320EC"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "6D4309F5791AAAA8"
+					item: "minecraft:tide_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2A0662EDFDA8506D"
+					item: "minecraft:dune_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2EDBD086EACEBD1C"
+					item: "minecraft:coast_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "击杀10只远古守卫者！"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:wet_sponge"
+				id: "6C22A4BA88CFFD87"
+				title: "海王！"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "25965487201DECCA"
+			rewards: [
+				{
+					id: "59C76DBEB8DF0D6C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "1CEF997BFC4AC81F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "33926752CE2C3503"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只女巫！"
+			tasks: [{
+				id: "3F891D7808F5E1C7"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "7CA2C94E2A719BE3"
+			rewards: [
+				{
+					id: "3109057D0BC337EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "39041245B181AD8F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "671DFB227C040C5A"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只蠹虫！"
+			tasks: [{
+				entity: "minecraft:silverfish"
+				icon: "minecraft:stone"
+				id: "263293A6401DDEB6"
+				title: "银鱼！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "4004B4D7B2646F35"
+			rewards: [
+				{
+					id: "72A50F2B8AFA0F07"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "05648C656BAEB51E"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "40AF4EFE7FD66661"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "63452EF21D22B671"
+					item: "minecraft:player_head"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100名玩家！"
+			tasks: [{
+				entity: "minecraft:player"
+				icon: "minecraft:player_head"
+				id: "21F60625FBC643FC"
+				title: "饥饿游戏！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "270842B7B29353EC"
+			rewards: [
+				{
+					id: "68D95AD03D6D15F3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "6AAD94B718EF159E"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "5958119578B5EEE0"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只卫道士！"
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6C8A904E79D2358D"
+				title: "刀斧手！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"508BB79B470A8C9A"
+				"78181EC747BC62B0"
+			]
+			id: "7316E55CF4488B50"
+			rewards: [
+				{
+					id: "0C3CE2D9F2438283"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "08EFE35CE6158128"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "3AF54FAA28FB04EA"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只掠夺者！"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2E665B6944415701"
+				title: "弓弩手！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "2B7DFA12335C681F"
+			rewards: [
+				{
+					id: "65973C2ED0CF8B9D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "43294DA9C31B8315"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "47CE1B00A3381978"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只恼鬼！"
+			tasks: [{
+				entity: "minecraft:vex"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4AEAC1B22844D6C8"
+				title: "苍蝇！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"508BB79B470A8C9A"
+				"1E5CBE25137750D1"
+			]
+			id: "0069D1E691A9535D"
+			rewards: [
+				{
+					id: "35236400AC52BBFA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "03DD7C3A05408FF9"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "41177E3433702242"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "12E6CF8548DD7593"
+					item: "minecraft:sentry_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "1A77F31997E31790"
+					item: "minecraft:vex_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "02BF304DA31D3FA0"
+					item: "minecraft:wild_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "击杀50只唤魔者！"
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: "minecraft:totem_of_undying"
+				id: "1CA6DC5FC6DA2063"
+				title: "法师！"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"508BB79B470A8C9A"
+				"78181EC747BC62B0"
+			]
+			id: "2A5454A65224BE3B"
+			rewards: [
+				{
+					count: 2
+					id: "48CC53CC960434E2"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6470405E6FBEFC56"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "10EDEAC47BF42D5C"
+					item: "minecraft:wayfinder_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "351B21222548B7D2"
+					item: "minecraft:raiser_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2F0194F45E6C2748"
+					item: "minecraft:shaper_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "400A66154379BC5F"
+					item: "minecraft:host_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "1693E0D778FFB797"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "击杀20只劫掠兽！"
+			tasks: [{
+				entity: "minecraft:ravager"
+				icon: "minecraft:saddle"
+				id: "37CBEC865A6AB209"
+				title: "骑士！"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"508BB79B470A8C9A"
+				"31A5DBC905C4ED33"
+			]
+			id: "53BB2134E3A28655"
+			rewards: [
+				{
+					id: "3A48383AC5B58144"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "39DE0A9F97EB830C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "42211146229F5755"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "4F9A246534D05853"
+					item: "minecraft:ward_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0069CCD8BC660ACA"
+					item: "minecraft:silence_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "击杀10只监守者！"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_shrieker"
+				id: "0167F14D7470FCE9"
+				title: "安静！"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "07FD475B5F614081"
+			rewards: [
+				{
+					id: "3C459D64CBDEE06F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3C2A0CFEA7D04526"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "7BB0C6944B9B4DE4"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只僵尸村民！"
+			tasks: [{
+				entity: "minecraft:zombie_villager"
+				icon: "minecraft:emerald"
+				id: "31D46AB25EBB024E"
+				title: "行尸走肉！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "1B0F4060CBA6D77B"
+			rewards: [
+				{
+					id: "02A0D2B03E9566AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "400918B2E2D2FA3F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "71F66B0680CDB021"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只溺尸！"
+			tasks: [{
+				entity: "minecraft:drowned"
+				icon: "minecraft:nautilus_shell"
+				id: "6EBEF983FB87A608"
+				title: "深海的亡灵！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "5D45BA9AA8546BBD"
+			rewards: [
+				{
+					id: "3CB962596CE8E46A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "086ECD4813929646"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "09E94855E2A5737D"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "大漠的孤烟......"
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: "minecraft:dead_bush"
+				id: "37CACC6339F1E1FC"
+				title: "木乃伊！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "0F3C6B3020E88E40"
+			rewards: [
+				{
+					id: "3DD36F6051BF14D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "50666128D63C8AED"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "4AED915241BA1499"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "流浪......遗忘......"
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: "minecraft:snowball"
+				id: "5ED3E2AF3E91CDDE"
+				title: "雪地的亡灵！"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69E7AACF8714FFBF"]
+			id: "4CCCFE56A215DBB3"
+			rewards: [
+				{
+					id: "4DC0BA09A09D4D15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "58BE1EBE16FB8F6F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "66B18BD97207CBD8"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "那是鼻孔！"
+			tasks: [{
+				entity: "minecraft:piglin"
+				icon: "minecraft:piglin_head"
+				id: "10CDA18748088603"
+				title: "妹子？"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+			]
+			id: "35F86FAAFA2BA4ED"
+			rewards: [
+				{
+					id: "794991E595E52966"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5D57B0B1CA41C73C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "18E91C7DD0663D0F"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只僵尸猪人！"
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				icon: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2A1A469825F0C074"
+				title: "僵尸猪人！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+			]
+			id: "3251B80DC5A2078E"
+			rewards: [
+				{
+					id: "58BF57FEEFA3AF9F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "7E34EB3D4EB5B41F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "4B210073F19F0BD6"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只猪灵蛮兵！"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: {
+					Count: 1
+					id: "minecraft:golden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5837170A09C4A525"
+				title: "严防死守！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+			]
+			id: "59C3DD785BDFB3AF"
+			rewards: [
+				{
+					id: "380309B8E134C4EF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3ED3D754ED435D33"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6325FE447573CC23"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "与火共舞！"
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_rod"
+				id: "2E78E170B8D011DD"
+				title: "火焰法师！"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+			]
+			id: "7DA2A406882F106E"
+			rewards: [
+				{
+					id: "59F4CDE6378EDF12"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "6BF68184805C267B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "27BF1DA5B1AD4483"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "49DE30D2AACD7193"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只凋灵骷髅！"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "44879F35006E3191"
+				title: "185黑皮体育生！"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+			]
+			id: "35D46EE3660C8DDB"
+			rewards: [
+				{
+					id: "38C61D75B26D1C4E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5A97798E24076A4A"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "06E62413A66AC148"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只岩浆怪！"
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: "minecraft:magma_cream"
+				id: "09677298F789F153"
+				title: "熔岩史莱姆！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+			]
+			id: "0E104B665084631C"
+			rewards: [
+				{
+					id: "6BFB6749C80975D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5D6E1F0A82BE43AF"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "48187D2A250A7802"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "冷知识：恶魂的配音是只猫猫！"
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_tear"
+				id: "0FEB233246E1A5BF"
+				title: "水母你为何哭泣？"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+			]
+			id: "312D541823E40B61"
+			rewards: [
+				{
+					id: "5BF2F2CA69991C2A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "244FE6AEC15B37F1"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "7C828BD5ACC6C717"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只疣猪兽！"
+			tasks: [{
+				entity: "minecraft:hoglin"
+				icon: "minecraft:porkchop"
+				id: "0C306585035B9125"
+				title: "野猪！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+			]
+			id: "5423D48AF59A8D37"
+			rewards: [
+				{
+					id: "7CBE24B5B371F724"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "6A17E1BEE7260F98"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "096D5449E8BAE40C"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只僵尸疣猪兽！"
+			tasks: [{
+				entity: "minecraft:zoglin"
+				icon: "minecraft:rotten_flesh"
+				id: "61B00E0441A5F150"
+				title: "僵尸猪！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"69E7AACF8714FFBF"
+				"508BB79B470A8C9A"
+				"6664015DE08B8C60"
+			]
+			id: "06934708FFFA7DAB"
+			rewards: [
+				{
+					id: "260806B878F4E110"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "62F76C4672BB7F9E"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "57B4245B473E7A5F"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "7D9CCC41AB4AE2B4"
+					item: "minecraft:snout_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "46FAE28C18C1C8FF"
+					item: "minecraft:rib_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "7CEED37376AAA288"
+					item: "crockpot:pot_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "击杀10只凋灵！"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_rose"
+				id: "27FA2A81CF10EC61"
+				title: "三头六臂！"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "1C3693CCC9C967A6"
+			rewards: [
+				{
+					id: "46A18AC94E5A61F8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "5661CE1468AFBF5C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "141B564BC23A89F9"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只末影人！"
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "supplementaries:enderman_head"
+				id: "1578CB45A097317F"
+				title: "内个~"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"04A310897453BBDC"
+				"508BB79B470A8C9A"
+			]
+			id: "45FC5969059F5C91"
+			rewards: [
+				{
+					id: "51A2502AD9F703BA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "6596B1443F990EC6"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "2AA9D6F76DEBF24E"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀100只末影螨！"
+			tasks: [{
+				entity: "minecraft:endermite"
+				icon: "ends_delight:dried_endermite_meat"
+				id: "11BEBCE17C11F4E4"
+				title: "紫薯面包？"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"04A310897453BBDC"
+				"508BB79B470A8C9A"
+			]
+			id: "53F04E2643E535E3"
+			rewards: [
+				{
+					id: "2CC80C66119EEBDE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "4A5FD9C4D319B933"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "2326315E077F3DD3"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "物理学不存在了！"
+			tasks: [{
+				entity: "minecraft:shulker"
+				icon: "minecraft:shulker_box"
+				id: "2EF2470B79CED233"
+				title: "我要飞的更高！"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"04A310897453BBDC"
+				"508BB79B470A8C9A"
+				"38DCCBC162F7E38E"
+			]
+			id: "13C07E69D22891CD"
+			rewards: [
+				{
+					id: "4D8CB12D17540CF3"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					id: "4746423BCF18E68A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "763C3740091EB082"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "36BBF57B90DED508"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					id: "4072928A8256D0F4"
+					item: "minecraft:eye_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "33196AE544D60B9A"
+					item: "minecraft:spire_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "击杀10只末影龙！"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "6EE48C8A0CA83A92"
+				title: "龙之谷！"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["508BB79B470A8C9A"]
+			id: "49B0E6EB723FB1A5"
+			rewards: [
+				{
+					id: "11B12A8009B179A5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "457751BF3396399A"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "66C1C2B874503169"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "击杀每一种敌对生物！"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "593E0388A42E4D14"
+				title: "赏金猎人！"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["在进入下界以后，这个世界的怪物都不同程度的有所增强，而且添加了更加强大的BOSS与袭击。如果想在这里继续生存下去，一定要记得拿好你的武器！"]
+			id: "0EE186F8DFE8F23B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 9
+							GunFireMode: "SEMI"
+							GunId: "tacz:deagle_golden"
+							HasBulletInBarrel: 1b
+						}
+					}
+					id: "347F35029F636D7F"
+					table_id: 360089086057594849L
+					title: "领取你的初始枪械"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "tacz:ammo_box"
+						tag: {
+							Level: 2
+						}
+					}
+					id: "22275F8FDF71FCC5"
+					table_id: 1022650563665126659L
+					title: "还有你的子弹！"
+					type: "choice"
+				}
+			]
+			subtitle: "枪在手，跟我走！"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4FAFACDC1A3EF5B1"
+				title: "准备好了么"
+				type: "dimension"
+			}]
+			title: "该准备更强大的对手了！"
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["奖励丰厚的击杀挑战！"]
+	title: "击杀任务！"
+}

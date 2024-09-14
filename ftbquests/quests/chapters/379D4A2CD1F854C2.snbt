@@ -1,0 +1,299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "379D4A2CD1F854C2"
+	group: ""
+	icon: "minecraft:crafting_table"
+	id: "379D4A2CD1F854C2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"YS Models对于人物动作的优化实在令人惊喜！"
+				"原本Parcool mod与TACZ的人物动作"
+				"并不兼容，但是YSM做到了！这也是为什么我会把这个mod加上awa"
+			]
+			icon: "minecraft:player_head"
+			id: "0569DC7826D5D559"
+			rewards: [{
+				id: "11FFC5FB5DFB4B8C"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			subtitle: "按下Alt+Y有惊喜！"
+			tasks: [{
+				id: "5A5E25EF84C3E29A"
+				title: "哎呀，就看一眼的事情嘛~"
+				type: "checkmark"
+			}]
+			title: "看一眼你自己吧！"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0569DC7826D5D559"]
+			description: [
+				"tweakerge，一个似乎知名度没有太高的mod。但是！很有用！"
+				"X+C可以设置tweakerge按键，由于本整合包的mod实在有点多，我只设置了F4灵魂出窍。不过应该够用了！"
+			]
+			icon: "exposure:camera"
+			id: "4CF81B92ECD10A67"
+			subtitle: "F4惊喜连连！"
+			tasks: [{
+				id: "31629F95DE7C9647"
+				title: "换个角度看一眼你自己！"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4CF81B92ECD10A67"]
+			description: ["月亮事件与渐进难度注定了本整合包前期不会太简单，如果想要生存下去，一定要建立一个稳定安全的庇护所，不要被亡灵大军冲破了！"]
+			icon: "minecraft:skeleton_skull"
+			id: "16DE1EAE4AC9F8A1"
+			rewards: [{
+				count: 64
+				id: "5E3563B51E448C5D"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "不要松懈！快建立庇护所！"
+			tasks: [{
+				id: "6890FB67F3239ECA"
+				title: "这世界险象环生……"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CF81B92ECD10A67"]
+			description: ["渐进难度mod加入了流血buff——这意味着你在战斗后需要用绷带止血才能继续工作或战斗。所以随时关注你的身体，开放性伤口可是致命的！"]
+			icon: "legendarysurvivaloverhaul:bandage"
+			id: "46DA2BB339FBB2A8"
+			rewards: [{
+				count: 4
+				id: "3E857CF3BB67C548"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			subtitle: "你已经不是一滴血还能蹦的超人了！"
+			tasks: [{
+				id: "0ADD8B9CF73116F1"
+				title: "及时止血！"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CF81B92ECD10A67"]
+			description: ["击杀原版动物时，你也许会发现它们竟然不直接掉落物品了。原地留下的尸体方块才是现在吃肉的关键。乡野装饰mod对于动物屠宰与烹饪做的非常细致，如果你愿意，可以试试在jei搜索@rtdd"]
+			icon: "rtdd:cleaver"
+			id: "31FFE8A1BECF7F62"
+			rewards: [
+				{
+					id: "00B0D587729B9507"
+					item: "rtdd:cleaver"
+					type: "item"
+				}
+				{
+					id: "3AD00872EAAF8765"
+					item: "rtdd:meathook"
+					type: "item"
+				}
+			]
+			subtitle: "更加浪漫的乡野风格"
+			tasks: [{
+				id: "3DFFC6F9F46C6D30"
+				title: "吃点好的"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CF81B92ECD10A67"]
+			description: ["史诗生存mod添加了部位伤害，干渴与体温三大变量。为了平衡TACZ，我们关闭了部位伤害，但是玩家仍然需要注意体温与干渴！"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						temperature: 23.0f
+					}
+				}
+				id: "legendarysurvivaloverhaul:thermometer"
+			}
+			id: "14405271ACF9EE7F"
+			rewards: [{
+				id: "3980B0DF8B67186F"
+				item: "legendarysurvivaloverhaul:canteen"
+				type: "item"
+			}]
+			subtitle: "全新的身体状态"
+			tasks: [{
+				id: "5DF3AB58886C7735"
+				title: "注意你的体温！"
+				type: "checkmark"
+			}]
+			title: "注意体温与干渴！"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CF81B92ECD10A67"]
+			description: ["为了抵御夏暑与冬寒，我们从村民那里买来了两套衣服，希望可以满足您的需求！"]
+			icon: "legendarysurvivaloverhaul:thermal_coat_1"
+			id: "586C8B91C1ECE8FC"
+			rewards: [
+				{
+					id: "599FC21042077B66"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A307BB0DC585519"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D9F61EB56762E34"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3234BDFEB818B9E6"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A97DCBC8CAFEC07"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01D60743EAAE0FDE"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27AF3873A1713D39"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A02AB8CD72BB1DD"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "试试这套衣服合不合身"
+			tasks: [{
+				id: "6A0E88A1C4D6A33A"
+				title: "炎夏与寒冬"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"31FFE8A1BECF7F62"
+				"14405271ACF9EE7F"
+				"16DE1EAE4AC9F8A1"
+				"46DA2BB339FBB2A8"
+				"586C8B91C1ECE8FC"
+			]
+			id: "0BB2BCD811000FD4"
+			rewards: [
+				{
+					id: "78CC543D1D3E1C70"
+					item: {
+						Count: 1
+						id: "travelersbackpack:standard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "330F19353A30DC2D"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "6207FFB62648CCC8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "174A372DF2C4A2C8"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "这个世界似乎有些不大一样......"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0E395F29DB4AE453"
+				title: "我出生了！"
+				type: "dimension"
+			}]
+			title: "欢迎来到天工万物2.0！"
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	title: "开始之前……"
+}

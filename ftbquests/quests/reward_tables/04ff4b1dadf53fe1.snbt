@@ -1,0 +1,32 @@
+{
+	id: "04FF4B1DADF53FE1"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 3
+					GunFireMode: "SEMI"
+					GunId: "immersive_armorer:standard_rail_pistol_mk1"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 6
+					GunFireMode: "SEMI"
+					GunId: "create_armorer:pistol_auto_stress"
+					HasBulletInBarrel: 1b
+				}
+			}
+		}
+	]
+	title: "开始战斗"
+}

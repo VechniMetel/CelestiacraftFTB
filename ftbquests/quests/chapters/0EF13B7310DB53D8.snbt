@@ -1,0 +1,770 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0EF13B7310DB53D8"
+	group: "61FDE72D569DB5C8"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "0EF13B7310DB53D8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6AAB8931C902A1E0"]
+			id: "07BE543400AC6811"
+			rewards: [
+				{
+					id: "0C07572908CB6B56"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "3FD522375D007674"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "世界定格在了最浪漫的瞬间......"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "7CA06143D3496B3C"
+				title: "天光凝暮色......"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07BE543400AC6811"]
+			id: "0A844C9B36F9F834"
+			rewards: [{
+				id: "738A94988C37BB76"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "绘制一张魔法地图！"
+			tasks: [{
+				id: "59F90E355CADDABC"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			title: "制图师！"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "54FA28616D4325F0"
+			rewards: [
+				{
+					id: "52CEF48C9F9A6BBF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "10B09A8C7C22A2DE"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "20EA809A96FB359C"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀娜迦！"
+			tasks: [{
+				id: "49DCE3E45024CFB8"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "森林巨蟒！"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54FA28616D4325F0"]
+			id: "2A190E9E24C51598"
+			rewards: [
+				{
+					id: "3FD6E403148EB38B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "664456AF66EF9BD3"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "2C821A72A9F793F4"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀巫妖！"
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "7F501856FAB7B368"
+				title: "巫妖王！"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0012618513E8B161"]
+			id: "5F6B12C580AE6F4B"
+			rewards: [
+				{
+					id: "4B0EE6B8BAE120B6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "2841CE613F95156C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "1CBD2FCBE5620C5A"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀米诺菇！"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "340367D983BF72F8"
+				title: "牛战士！"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A190E9E24C51598"]
+			id: "73EE67934155BFCC"
+			rewards: [
+				{
+					id: "0AA3B7194C635E32"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "083A385DCFAAB520"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "43C3AC79AECC1069"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀九头蛇！"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "68F0DE0B3B3BFC3B"
+				title: "凤舞九天！"
+				type: "kill"
+				value: 1L
+			}]
+			title: "凤舞九天！"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A190E9E24C51598"]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "42EE7AEA4CEC6CB9"
+			rewards: [
+				{
+					id: "7F45B038CE7AB8C3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "0B781474FDD50117"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "059518CC1726812B"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀雪怪首领！"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "1765FE134657CAE9"
+				title: "你想不想堆个雪人？"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42EE7AEA4CEC6CB9"]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "07ADE26D788CFB17"
+			rewards: [
+				{
+					id: "3C57E5A65683B137"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "22D7D1E7C5857F55"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "3C57C5C9AAF08938"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀冰雪女王！"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "60EC5798742121DD"
+				title: "艾莎！"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"07ADE26D788CFB17"
+				"5F6B12C580AE6F4B"
+				"42EE7AEA4CEC6CB9"
+				"73EE67934155BFCC"
+			]
+			id: "13FB762EDB633253"
+			rewards: [
+				{
+					id: "0D6A0E9B929472A8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "622715ABAE8C93A3"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B0E6FCBDDEBA841"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "击杀幻影骑士！"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "1F914E8226528444"
+				title: "分身术！"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["13FB762EDB633253"]
+			id: "38713BE3CEDA35C1"
+			rewards: [
+				{
+					id: "140F09FA5EF12D57"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "0C4470E8FAA38C61"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "63A1D8D4FF432035"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "击杀暮初恶魂！"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "78816AFCE8DF5F20"
+				title: "高塔顶的悲伤！"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "7A5B681CFC73DC11"
+			rewards: [{
+				id: "212657C48EE03D0C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "分解！"
+			tasks: [{
+				id: "278CE49291063618"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			title: "拆解台！"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "33F95E43954D8503"
+			rewards: [
+				{
+					id: "7A6202094AE9EFD2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "69D6D231C3B4714B"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "把所有颜色的羊毛给博学的羊！"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				icon: "minecraft:white_wool"
+				id: "66B723D54431E805"
+				title: "彩虹羊！"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38713BE3CEDA35C1"]
+			id: "24C280C2E3CA3487"
+			rewards: [{
+				id: "7B2D1A50C82B71AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "据说它连接着天地！"
+			tasks: [{
+				id: "12655136C0F1CC60"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			title: "魔豆！"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["24C280C2E3CA3487"]
+			id: "36294B854C806CC0"
+			rewards: [{
+				id: "5A7ED09443D16114"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "挖开洞穴中的巨型黑曜石！"
+			tasks: [{
+				id: "3109EF99591D2DAF"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "巨人的工具！"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["36294B854C806CC0"]
+			id: "6A27E74EFE90D059"
+			rewards: [
+				{
+					id: "6CE2E07804030ECD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7670D54C3AD7E35E"
+					item: "primogemcraft:shilianchou"
+					type: "item"
+				}
+			]
+			subtitle: "利用它烧毁阻挡你前进的荆棘！"
+			tasks: [{
+				id: "3F50768093DF3F44"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "阿拉丁神灯！"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "63E4174B27A2396E"
+			rewards: [{
+				id: "1EEA7AFE4653AA30"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "妈妈再也不担心我缺矿啦！"
+			tasks: [{
+				id: "1271A41BAA6BDCCF"
+				item: {
+					Count: 1
+					id: "twilightforest:ore_magnet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "磁铁！"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "5D27DEFA7F493437"
+			rewards: [{
+				id: "402DADF6E49964E0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "素！"
+			tasks: [{
+				id: "50CA2161E6667C26"
+				item: {
+					Count: 1
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "先秦淑女步！"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "59B8A94522B80B46"
+			rewards: [{
+				id: "40DD2AFE643F1D91"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "火把枪（bushi）"
+			tasks: [{
+				id: "2AF54CB053633898"
+				item: {
+					Count: 1
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "蠕虫女王！"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "62B5E98BE9391592"
+			rewards: [{
+				id: "3C61654B7C3AB362"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "转换大法！"
+			tasks: [{
+				id: "503EAF8A5CCE401F"
+				item: "twilightforest:transformation_powder"
+				type: "item"
+			}]
+			title: "转换粉！"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "6D5C5E2DC21FB0DF"
+			rewards: [
+				{
+					id: "47D0F23C49CB2DAB"
+					item: "twilightforest:charm_of_life_2"
+					type: "item"
+				}
+				{
+					id: "79D9A7C607EC0769"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "不死图腾青春版！"
+			tasks: [{
+				id: "539422C5A54911A1"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			title: "屹立不倒！"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A844C9B36F9F834"]
+			id: "5617AAB47FB92C84"
+			rewards: [
+				{
+					id: "57C2BCFF4F3E1D67"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0FC632E57CAE1CCE"
+					item: "twilightforest:charm_of_keeping_3"
+					type: "item"
+				}
+			]
+			subtitle: "妈妈再也不用担心我的背包清空啦！"
+			tasks: [{
+				id: "7FA863B4ED8BAA12"
+				item: "twilightforest:charm_of_keeping_1"
+				type: "item"
+			}]
+			title: "不掉落！"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F6B12C580AE6F4B"]
+			id: "5545DCF82AF04E4C"
+			rewards: [
+				{
+					id: "78FDB48569DBD17A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "66730DA1B2D631B5"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "哎呀！我的神镐！"
+			tasks: [{
+				id: "047947E7D5369435"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "迷宫破坏者！"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2A190E9E24C51598"]
+			id: "24F96FD5F4D961AF"
+			rewards: [
+				{
+					id: "315A1C51849CD93A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "38133549B2C58F12"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "发射珍珠炮弹攻击敌人！"
+			tasks: [{
+				id: "6C235F0030BE5E6C"
+				item: {
+					Count: 1
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A190E9E24C51598"]
+			id: "57E0234DB855DBC3"
+			rewards: [
+				{
+					id: "5225FEBBD7B359EB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7425082D313ACC0C"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "顾名思义！"
+			tasks: [{
+				id: "56F8E7CFD2796E2B"
+				item: {
+					Count: 1
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "吸血权杖！"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A190E9E24C51598"]
+			id: "55E46FFEBB2BF5DC"
+			rewards: [
+				{
+					id: "42A0A8CF3E70C224"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "056F5F556129AD97"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+			]
+			subtitle: "召唤僵尸保镖！"
+			tasks: [{
+				id: "56B1E0C32B41270C"
+				item: {
+					Count: 1
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "僵尸权杖！"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A190E9E24C51598"]
+			id: "26F0AC400E01EFE1"
+			rewards: [
+				{
+					id: "23DA36185C572917"
+					item: "primogemcraft:xixiangyuzhiyuan"
+					type: "item"
+				}
+				{
+					id: "76D72F3B4DA2F495"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "顾名思义！"
+			tasks: [{
+				id: "6F0051C9465A6709"
+				item: {
+					Count: 1
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "护盾权杖！"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A190E9E24C51598"]
+			id: "0012618513E8B161"
+			rewards: [{
+				id: "177BA94B7A59F4A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "找呀找......"
+			tasks: [{
+				id: "0C79EE58D11AF4BB"
+				item: "twilightforest:maze_map"
+				type: "item"
+			}]
+			title: "迷宫地图！"
+			x: -2.0d
+			y: 5.0d
+		}
+	]
+	subtitle: ["暮色中的工厂，在远处发着光......"]
+	title: "暮色任务"
+}
