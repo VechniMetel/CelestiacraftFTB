@@ -3,27 +3,408 @@
 	default_quest_shape: ""
 	filename: "63C9A638F0D32092"
 	group: "61FDE72D569DB5C8"
+	icon: {
+		Count: 1
+		id: "touhou_little_maid:hakurei_gohei"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "63C9A638F0D32092"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"你说，吃素能去西方极乐世界。"
-			""
-			""
-			""
-			"那吃肉是不是能去东方幻想乡？"
-		]
-		id: "659F8979AD502343"
-		subtitle: "万恶起源"
-		tasks: [{
-			id: "41FDBF401127FE21"
-			item: "touhou_little_maid:smart_slab_init"
-			type: "item"
-		}]
-		title: "东方幻想乡"
-		x: 0.0d
-		y: -3.0d
-	}]
+	quests: [
+		{
+			description: [
+				"你说，吃素能去西方极乐世界。"
+				""
+				""
+				""
+				"那吃肉是不是能去东方幻想乡？"
+			]
+			id: "659F8979AD502343"
+			rewards: [
+				{
+					id: "778A94B27B284FF9"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:hakurei_gohei"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CBB28AEA0C09E03"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:sanae_gohei"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "万恶起源"
+			tasks: [{
+				id: "41FDBF401127FE21"
+				item: "touhou_little_maid:smart_slab_init"
+				type: "item"
+			}]
+			title: "东方幻想乡"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["659F8979AD502343"]
+			description: ["有了祭坛，你就可以制造女仆物品与召唤/复活女仆。新召唤的女仆可以使用蛋糕驯服。"]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:hakurei_gohei"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C8F62F37278B4E9"
+			rewards: [
+				{
+					id: "5E44C2ED59795EC8"
+					item: "touhou_little_maid:maid_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "61E7D1AF2D7AA0DE"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			subtitle: "车万的核心出装"
+			tasks: [{
+				id: "09599B66DC09ECA7"
+				observe_type: 0
+				timer: 0L
+				title: "多方块祭坛"
+				to_observe: "touhou_little_maid:altar"
+				type: "observation"
+			}]
+			title: "建造一个多方块祭坛"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C8F62F37278B4E9"]
+			description: ["女仆的好感度可以提升她们的生命与力量，所以想要养成一个强大的女仆，互动是必不可少的。与你的女仆互动来增强她吧！"]
+			id: "242BF2272C9607AD"
+			rewards: [{
+				count: 20
+				id: "41082D9F8EAB4F23"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			subtitle: "当一个好雇主，陪她们玩玩吧"
+			tasks: [{
+				id: "216A69DBBBD48CA6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "touhou_little_maid:gomoku"
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:keyboard"
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:computer"
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:bookshelf"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "和女仆互动"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C8F62F37278B4E9"]
+			description: ["虽然女仆没有和玩家一样的饱食度，女仆的食物仍然是你需要考虑的内容。没错，吃东西同样增加女仆的好感！"]
+			id: "46CDEAAE087ACE59"
+			rewards: [{
+				count: 30
+				id: "2554A4E9BC02F0BD"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			subtitle: "吃饱了才有力气干活！"
+			tasks: [{
+				id: "7EC4918FFC4762D2"
+				item: "touhou_little_maid:picnic_basket"
+				type: "item"
+			}]
+			title: "该野餐啦！"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C8F62F37278B4E9"]
+			description: ["女仆睡觉会增加女仆对玩家的好感度，好感度的上升可以对女仆的生命与力量产生加成，从而更好的进行工作"]
+			id: "53314FCF423E8EF0"
+			rewards: [
+				{
+					id: "611ACDC861F176D6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 20
+					id: "18456DCD22EDF425"
+					item: "touhou_little_maid:power_point"
+					type: "item"
+				}
+			]
+			subtitle: "为了更好的工作，请落实劳动法"
+			tasks: [{
+				id: "6CF18D13363506F7"
+				item: "touhou_little_maid:maid_bed"
+				type: "item"
+			}]
+			title: "让她们休息休息"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C8F62F37278B4E9"]
+			description: ["使用多方块祭坛制造一个背包！这会给女仆增加存储空间，使其可以帮你携带物品！这个小背包还可以升级为添加工作台。末影箱，熔炉等物品的功能背包！"]
+			id: "0E40C97C2CCDF5E7"
+			rewards: [
+				{
+					count: 5
+					id: "087852E82F688BF5"
+					item: "minecraft:pink_wool"
+					type: "item"
+				}
+				{
+					id: "40A6BA9D5F766CE4"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "让女仆帮你携带物品！"
+			tasks: [{
+				id: "04152770D3C4B35E"
+				item: "touhou_little_maid:maid_backpack_small"
+				type: "item"
+			}]
+			title: "你的外置背包！"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C8F62F37278B4E9"]
+			description: ["饰品可以拓展女仆的能力，或增加其生存力。例如：装备了隙间的女仆在工作过程中可以把背包里的物品放进隙间绑定的箱子里！"]
+			id: "4459E1343D48A6E6"
+			subtitle: "和玩家饰品一样的特殊效果"
+			tasks: [{
+				id: "1F15A5033179DBB8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "touhou_little_maid:ultramarine_orb_elixir"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:explosion_protect_bauble"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:fire_protect_bauble"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:projectile_protect_bauble"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:magic_protect_bauble"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:fall_protect_bauble"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:drown_protect_bauble"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:nimble_fabric"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:item_magnet_bauble"
+							}
+							{
+								Count: 1b
+								id: "touhou_little_maid:wireless_io"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "给女仆添加饰品"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C8F62F37278B4E9"]
+			description: ["你可以右键女仆坟墓来回收物品与记录女仆的胶卷。你可以使用青金石，煤炭，铁，金和红石在祭坛里复活胶卷上面的女仆，或者把胶片放进神龛，牺牲自己的血量来复活女仆。"]
+			id: "5EA530A12AD47312"
+			rewards: [{
+				id: "68BC0F26D259EB83"
+				item: "touhou_little_maid:shrine"
+				type: "item"
+			}]
+			subtitle: "材料，还是血量？"
+			tasks: [{
+				id: "60668AA79A3155DA"
+				title: "我知道了"
+				type: "checkmark"
+			}]
+			title: "如果你不慎失去了你的女仆……"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C8F62F37278B4E9"]
+			description: ["玩家需要P点来进行祭坛操作，而玩家死亡会导致P点归零。如果你不想不断去收集P点的话，一定要用神社庭灯存储你的P点"]
+			id: "6395E34477C9F028"
+			rewards: [{
+				count: 2
+				id: "71F4A2084ABEA44F"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:maid_beacon"
+					tag: {
+						StorageData: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "车万女仆专属的P点存储"
+			tasks: [{
+				id: "6AF71EC0AE9EE524"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			title: "存储你的抛瓦"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["你可以使用这把扫帚飞行。虽然它的飞行速度比不上沉浸飞行器，功能也没有那么多，但是它胜在便宜且不消耗燃料。和女仆一起坐上这把扫帚，享受在前期飞行的乐趣吧！"]
+			id: "0588F191A6A54728"
+			rewards: [{
+				count: 25
+				id: "3764BFF8F9972DCD"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			subtitle: "女仆动力飞行单元（雾）"
+			tasks: [{
+				id: "10A08B9ED2067160"
+				item: "touhou_little_maid:broom"
+				type: "item"
+			}]
+			title: "实惠的短距离飞行"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["使用相机可以捕捉野生的与属于你的女仆。被捕捉的女仆会作为一个相片被保存在物品栏中。把相片拿在副手，主手拿上车万女仆的凿子，便可以雕刻出一个手办，它的形状便是副手女仆的形状。"]
+			id: "5991FE9D192CFBE3"
+			rewards: [{
+				id: "587863E3D1F8E06F"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:garage_kit"
+					tag: {
+						EntityInfo: {
+							ModelId: "touhou_little_maid:hakurei_reimu_type_b"
+							id: "touhou_little_maid:maid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "抓回家，还可以顺便做个手办！"
+			tasks: [
+				{
+					id: "500356722C6F0C9A"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:camera"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "146870356EF79E57"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:chisel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "发现了一只野生的女仆？"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
 	title: "车万月共集体探头"
 }
